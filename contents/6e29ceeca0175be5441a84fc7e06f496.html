@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>MR-003 Paciente_antecedentes_medicos</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/icon-font/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+<script type="text/javascript" src="../assets/js/imageMapResizer.min.js"></script>
+
+  </head>
+  <body>
+    <div>
+
+      <!-- Name Title -->
+
+      <h1>MR-003 Paciente_antecedentes_medicos</h1>
+
+      <!-- Type and Stereotype -->
+
+      <section style="margin-top: .5em;">
+        <span class="alert alert-info">
+          <span class="node-icon staruml-icon icon-ERDEntity"></span>
+          ERDEntity
+        </span>
+        
+      </section>
+
+      <!-- Path -->
+
+      <section style="margin-top: 10px">
+        
+        
+        
+          
+          <span class="label label-info"><a href='0fa3e26321c26558efa77ff144c36f21.html'><span class='node-icon staruml-icon icon-Project'></span>Dentware</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='af7d9745e215e592d9dcc604230d6468.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Modelo de diseño</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='2ff1b4d06499a0f34104ffad36fbfdbd.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Modelo relacional</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='6e29ceeca0175be5441a84fc7e06f496.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MR-003 Paciente_antecedentes_medicos</a></span>
+        
+      </section>
+
+      <!-- Diagram -->
+
+      
+
+      <!-- Description -->
+
+      
+      <section>
+        <h3>Description</h3>
+        <div>
+          
+            <p>Registra la información relevante sobre el historial médico del paciente, como enfermedades previas, tratamientos médicos actuales, alergias, y otra información de salud que pueda influir en la atención odontológica. Está directamente relacionada con la tabla de pacientes y se utiliza para evaluar riesgos y planificar tratamientos adecuados.</p>
+          
+        </div>
+      </section>
+      
+
+      <!-- Specification -->
+
+      
+
+      <!-- Directed Relationship -->
+
+      
+
+      <!-- Undirected Relationship -->
+
+      
+
+      <!-- Classifier -->
+
+      
+
+      <!-- Interface -->
+
+      
+
+      <!-- Component -->
+
+      
+
+      <!-- Node -->
+
+      
+
+      <!-- Actor -->
+
+      
+
+      <!-- Use Case -->
+
+      
+
+      <!-- Template Parameters -->
+
+      
+
+      <!-- Literals -->
+
+      
+
+      <!-- Attributes -->
+
+      
+
+      <!-- Operations -->
+
+      
+
+      <!-- Receptions -->
+
+      
+
+      <!-- Extension Points -->
+
+      
+
+      <!-- Parameters -->
+
+      
+
+      <!-- Diagrams -->
+
+      
+      
+
+      <!-- Behavior -->
+
+      
+
+      <!-- Action -->
+
+      
+
+      <!-- Interaction -->
+
+      
+
+      <!-- CombinedFragment -->
+
+      
+
+      <!-- Activity -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State -->
+
+      
+
+      <!-- Vertex -->
+
+      
+
+      <!-- Transition -->
+
+      
+
+      <!-- Data Model (ERD) -->
+
+      
+
+      <!-- Columns (ERD) -->
+
+      
+      <section>
+        <h3>Columns</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="20%">Name</th>
+            <th width="20%">Type</th>
+            <th width="10%">Primary Key</th>
+            <th width="10%">Foreign Key</th>
+            <th width="20%">Reference To</th>
+            <th width="10%">Nullable</th>
+            <th width="10%">Unique</th>
+          </tr>
+          
+          <tr>
+            <td><a href="411d71a68ab83bab92ffee0b54764ba0.html">Paciente_DNI</a></td>
+            <td>TEXT</td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='e39456b9e1f306a5bd4aaffabdb778db.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MR-001 Paciente</a> ::
+              
+              <a href='3dbf52865ebcf3963a780858c3b7e494.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>DNI</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="71315f503e3a2792b00160fd124e6580.html">enfermedad_cardiaca</a></td>
+            <td>BOOLEAN</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="1714d7416624abc1532fef7c3e79be62.html">enfermedad_renal</a></td>
+            <td>BOOLEAN</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="cace5852697c2f9bb731535d5282c279.html">vih</a></td>
+            <td>BOOLEAN</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="6508ee941aa9e0274627c5e52488f9a2.html">alergias</a></td>
+            <td>BOOLEAN</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="bd21d10e728e66eca023c26ca3fdd6a1.html">hemorragias</a></td>
+            <td>BOOLEAN</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="6b21ce8f1e9cce361ae216b888ed085b.html">medicado</a></td>
+            <td>BOOLEAN</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="83364907993ea931691fc8d63385e201.html">diabetes</a></td>
+            <td>BOOLEAN</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="567913d09afac28b9da68a00b13f5ac4.html">hepatitis</a></td>
+            <td>BOOLEAN</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="487a963b6f8caa33ef11a9cba96df382.html">problemas_hemorragicos</a></td>
+            <td>BOOLEAN</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="804aa3c7a1f3ba918d3353118927abe6.html">presion_alta</a></td>
+            <td>BOOLEAN</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="351eb937ae349085952b40ca21420d9b.html">epilepsia</a></td>
+            <td>BOOLEAN</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="f3cb7f2666215cf74d9017743f5c9b4d.html">embarazo</a></td>
+            <td>BOOLEAN</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="81492acc2b86ec7465168093e218deb0.html">otros</a></td>
+            <td>TEXT</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Related Entities (ERD) -->
+
+      
+      <section>
+        <h3>Related Entities</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="25%">Entity</th>
+            <th width="25%">Cardinality</th>
+            <th width="25%">Reference Name</th>
+            <th width="25%">Relationship</th>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='e39456b9e1f306a5bd4aaffabdb778db.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MR-001 Paciente</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='e6890fc419efd8146ca55e39492d2e8f.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-003 Paciente_antecedentes_medicos—MR-001 Paciente)</a></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Data Flows (DFD) -->
+
+      
+
+      <!-- Flows (Flowchart) -->
+
+      
+
+      <!-- Properties -->
+
+      <section>
+        <h3>Properties</h3>
+        
+        <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>MR-003 Paciente_antecedentes_medicos</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</table>                
+
+      </section>
+
+      <!-- Tags -->
+
+      
+
+      <!-- Constraints, Dependencies, Dependants -->
+
+      
+
+      <!-- Relationships -->
+
+      
+      
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='e6890fc419efd8146ca55e39492d2e8f.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-003 Paciente_antecedentes_medicos—MR-001 Paciente)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Owned Elements -->
+
+      
+      
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='e6890fc419efd8146ca55e39492d2e8f.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-003 Paciente_antecedentes_medicos—MR-001 Paciente)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Diagrams -->
+      
+      
+      
+<section class="element-list">
+    <h3>Diagrams</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='3a7e391e8d516f98e6f46d5ba6837ada.html'><span class='node-icon staruml-icon icon-ERDDiagram'></span>Diagrama relacional</a></li>
+        
+    </ul>
+</section>
+
+
+      
+      
+      <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->
+      <script>
+      imageMapResize();
+      </script>
+    </div>
+  </body>
+</html>
