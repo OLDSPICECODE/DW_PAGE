@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>MF-005 Paciente_examen_auxiliar</title>
+    <title>MF-005 paciente_examen_auxiliar</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -11,6 +11,7 @@
 <script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript" src="../assets/js/bootstrap.js"></script>
 <script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+<script type="text/javascript" src="../assets/js/imageMapResizer.min.js"></script>
 
   </head>
   <body>
@@ -18,7 +19,7 @@
 
       <!-- Name Title -->
 
-      <h1>MF-005 Paciente_examen_auxiliar</h1>
+      <h1>MF-005 paciente_examen_auxiliar</h1>
 
       <!-- Type and Stereotype -->
 
@@ -46,7 +47,7 @@
           <span class="label label-info"><a href='0aaf5ee93add081c270d804da800d0bd.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Modelo de datos físico</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='f50d336981adbfe9b3ad189bc920306a.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-005 Paciente_examen_auxiliar</a></span>
+          <span class="label label-info"><a href='f50d336981adbfe9b3ad189bc920306a.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-005 paciente_examen_auxiliar</a></span>
         
       </section>
 
@@ -63,7 +64,7 @@
           
             <p>Contiene registros de pruebas complementarias solicitadas por el odontólogo, como radiografías, tomografías o estudios de laboratorio. Estos exámenes pueden provenir de laboratorios o centros externos, y se utilizan como soporte diagnóstico para una mejor evaluación clínica.</p>
 
-<p>Tamaño esperado: 100 bytes</p>
+<p>Tamaño esperado: 96 bytes</p>
           
         </div>
       </section>
@@ -200,22 +201,22 @@
           </tr>
           
           <tr>
-            <td><a href="4a7d1a66d99a4bae68538169281e2454.html">Paciente_DNI</a></td>
-            <td>TEXT</td>
+            <td><a href="4a7d1a66d99a4bae68538169281e2454.html">historia_clinica_id</a></td>
+            <td>INTEGER</td>
             <td><span class='label label-info'>true</span></td>
             <td><span class='label label-info'>true</span></td>
             <td>
               
-                <a href='9de644fbd9ed4f041589a1229f3d107b.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-001 Paciente</a> ::
+                <a href='4d6135d866839604de6a0266c995cbe1.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-012 historia_clinica</a> ::
               
-              <a href='d72a55d09de7be73a8238ad5d6eb6d47.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>DNI</a>
+              <a href='d2ec56d1c475c0ec5de47234ef6f3a41.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>historia_clinica_id</a>
             </td>
             <td><span class='label label-info'>false</span></td>
             <td><span class='label label-info'>false</span></td>
           </tr>
           
           <tr>
-            <td><a href="10f6c98acb9940ec79438d82cc8007de.html">ID</a></td>
+            <td><a href="10f6c98acb9940ec79438d82cc8007de.html">examen_id</a></td>
             <td>SERIAL</td>
             <td><span class='label label-info'>true</span></td>
             <td><span class='label label-info'>false</span></td>
@@ -286,10 +287,18 @@
           
           
           <tr>
-            <td><a href='9de644fbd9ed4f041589a1229f3d107b.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-001 Paciente</a></td>
+            <td><a href='9de644fbd9ed4f041589a1229f3d107b.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-001 paciente</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='6a66225574f2b7436566d4c9fa273c99.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-001 Paciente—MF-005 Paciente_examen_auxiliar)</a></td>
+            <td><a href='6a66225574f2b7436566d4c9fa273c99.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-001 paciente—MF-005 paciente_examen_auxiliar)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='4d6135d866839604de6a0266c995cbe1.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-012 historia_clinica</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='c61fb171669db3acf0661a02b263b265.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-012 historia_clinica—MF-005 paciente_examen_auxiliar)</a></td>
           </tr>
           
         </table>                
@@ -323,7 +332,7 @@
     
     <tr>
         <td>name</td>
-        <td>MF-005 Paciente_examen_auxiliar</td>
+        <td>MF-005 paciente_examen_auxiliar</td>
     </tr>
     
     
@@ -356,7 +365,9 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='6a66225574f2b7436566d4c9fa273c99.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-001 Paciente—MF-005 Paciente_examen_auxiliar)</a></li>
+        <li><a href='6a66225574f2b7436566d4c9fa273c99.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-001 paciente—MF-005 paciente_examen_auxiliar)</a></li>
+        
+        <li><a href='c61fb171669db3acf0661a02b263b265.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-012 historia_clinica—MF-005 paciente_examen_auxiliar)</a></li>
         
     </ul>
 </section>
@@ -369,6 +380,26 @@
       
 
 
+      <!-- Diagrams -->
+      
+      
+      
+<section class="element-list">
+    <h3>Diagrams</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='e88e848897a9a8d3a55ed33e704150ae.html'><span class='node-icon staruml-icon icon-ERDDiagram'></span>Diagrama relacional físico</a></li>
+        
+    </ul>
+</section>
+
+
+      
+      
+      <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->
+      <script>
+      imageMapResize();
+      </script>
     </div>
   </body>
 </html>

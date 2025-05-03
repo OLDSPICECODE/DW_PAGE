@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>MF-008 Paciente_odontograma</title>
+    <title>MF-008 historia_clinica_odontograma</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -11,6 +11,7 @@
 <script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript" src="../assets/js/bootstrap.js"></script>
 <script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+<script type="text/javascript" src="../assets/js/imageMapResizer.min.js"></script>
 
   </head>
   <body>
@@ -18,7 +19,7 @@
 
       <!-- Name Title -->
 
-      <h1>MF-008 Paciente_odontograma</h1>
+      <h1>MF-008 historia_clinica_odontograma</h1>
 
       <!-- Type and Stereotype -->
 
@@ -46,7 +47,7 @@
           <span class="label label-info"><a href='0aaf5ee93add081c270d804da800d0bd.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Modelo de datos físico</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='3a190eafdd34fecffc6fdf05edb47326.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-008 Paciente_odontograma</a></span>
+          <span class="label label-info"><a href='3a190eafdd34fecffc6fdf05edb47326.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-008 historia_clinica_odontograma</a></span>
         
       </section>
 
@@ -200,22 +201,22 @@
           </tr>
           
           <tr>
-            <td><a href="6bc6dd2a8d302f9a01ab48916bd2d34c.html">Paciente_DNI</a></td>
-            <td>TEXT</td>
+            <td><a href="6bc6dd2a8d302f9a01ab48916bd2d34c.html">historia_clinica_id</a></td>
+            <td>INTEGER</td>
             <td><span class='label label-info'>true</span></td>
             <td><span class='label label-info'>true</span></td>
             <td>
               
-                <a href='9de644fbd9ed4f041589a1229f3d107b.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-001 Paciente</a> ::
+                <a href='4d6135d866839604de6a0266c995cbe1.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-012 historia_clinica</a> ::
               
-              <a href='d72a55d09de7be73a8238ad5d6eb6d47.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>DNI</a>
+              <a href='d2ec56d1c475c0ec5de47234ef6f3a41.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>historia_clinica_id</a>
             </td>
             <td><span class='label label-info'>false</span></td>
             <td><span class='label label-info'>false</span></td>
           </tr>
           
           <tr>
-            <td><a href="504b65056ba1a2b6a94367787b891b09.html">ID</a></td>
+            <td><a href="504b65056ba1a2b6a94367787b891b09.html">odontograma_id</a></td>
             <td>SERIAL</td>
             <td><span class='label label-info'>true</span></td>
             <td><span class='label label-info'>false</span></td>
@@ -273,10 +274,18 @@
           
           
           <tr>
-            <td><a href='9de644fbd9ed4f041589a1229f3d107b.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-001 Paciente</a></td>
+            <td><a href='9de644fbd9ed4f041589a1229f3d107b.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-001 paciente</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='254a2f4e0be588433505046ff8411833.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-001 Paciente—MF-008 Paciente_odontograma)</a></td>
+            <td><a href='254a2f4e0be588433505046ff8411833.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-001 paciente—MF-008 historia_clinica_odontograma)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='4d6135d866839604de6a0266c995cbe1.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-012 historia_clinica</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='2329d0d58e005c2662a18b5fb337c0c8.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-012 historia_clinica—MF-008 historia_clinica_odontograma)</a></td>
           </tr>
           
         </table>                
@@ -310,7 +319,7 @@
     
     <tr>
         <td>name</td>
-        <td>MF-008 Paciente_odontograma</td>
+        <td>MF-008 historia_clinica_odontograma</td>
     </tr>
     
     
@@ -343,7 +352,9 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='254a2f4e0be588433505046ff8411833.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-001 Paciente—MF-008 Paciente_odontograma)</a></li>
+        <li><a href='254a2f4e0be588433505046ff8411833.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-001 paciente—MF-008 historia_clinica_odontograma)</a></li>
+        
+        <li><a href='2329d0d58e005c2662a18b5fb337c0c8.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-012 historia_clinica—MF-008 historia_clinica_odontograma)</a></li>
         
     </ul>
 </section>
@@ -356,6 +367,26 @@
       
 
 
+      <!-- Diagrams -->
+      
+      
+      
+<section class="element-list">
+    <h3>Diagrams</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='e88e848897a9a8d3a55ed33e704150ae.html'><span class='node-icon staruml-icon icon-ERDDiagram'></span>Diagrama relacional físico</a></li>
+        
+    </ul>
+</section>
+
+
+      
+      
+      <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->
+      <script>
+      imageMapResize();
+      </script>
     </div>
   </body>
 </html>

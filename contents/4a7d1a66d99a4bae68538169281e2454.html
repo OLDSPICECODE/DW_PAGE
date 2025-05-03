@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Paciente_DNI</title>
+    <title>historia_clinica_id</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -11,6 +11,7 @@
 <script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript" src="../assets/js/bootstrap.js"></script>
 <script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+<script type="text/javascript" src="../assets/js/imageMapResizer.min.js"></script>
 
   </head>
   <body>
@@ -18,7 +19,7 @@
 
       <!-- Name Title -->
 
-      <h1>Paciente_DNI</h1>
+      <h1>historia_clinica_id</h1>
 
       <!-- Type and Stereotype -->
 
@@ -46,10 +47,10 @@
           <span class="label label-info"><a href='0aaf5ee93add081c270d804da800d0bd.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Modelo de datos físico</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='f50d336981adbfe9b3ad189bc920306a.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-005 Paciente_examen_auxiliar</a></span>
+          <span class="label label-info"><a href='f50d336981adbfe9b3ad189bc920306a.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-005 paciente_examen_auxiliar</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='4a7d1a66d99a4bae68538169281e2454.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>Paciente_DNI</a></span>
+          <span class="label label-info"><a href='4a7d1a66d99a4bae68538169281e2454.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>historia_clinica_id</a></span>
         
       </section>
 
@@ -64,9 +65,9 @@
         <h3>Description</h3>
         <div>
           
-            <p>Corresponde al documento de nacional de identidad del paciente. Serán 8 dígitos.</p>
+            <p>Corresponde al identificador de la historia clínica del paciente. Será autonumerado.</p>
 
-<p>Tamaño esperado:  8 bytes</p>
+<p>Tamaño esperado:  4 bytes</p>
           
         </div>
       </section>
@@ -220,7 +221,7 @@
     
     <tr>
         <td>name</td>
-        <td>Paciente_DNI</td>
+        <td>historia_clinica_id</td>
     </tr>
     
     
@@ -235,7 +236,7 @@
     
     <tr>
         <td>type</td>
-        <td>TEXT</td>
+        <td>INTEGER</td>
     </tr>
     
     
@@ -271,7 +272,7 @@
     
     <tr>
         <td>referenceTo</td>
-        <td><a href='d72a55d09de7be73a8238ad5d6eb6d47.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>DNI</a></td>
+        <td><a href='d2ec56d1c475c0ec5de47234ef6f3a41.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>historia_clinica_id</a></td>
     </tr>
     
     
@@ -318,6 +319,26 @@
       
 
 
+      <!-- Diagrams -->
+      
+      
+      
+<section class="element-list">
+    <h3>Diagrams</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='e88e848897a9a8d3a55ed33e704150ae.html'><span class='node-icon staruml-icon icon-ERDDiagram'></span>Diagrama relacional físico</a></li>
+        
+    </ul>
+</section>
+
+
+      
+      
+      <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->
+      <script>
+      imageMapResize();
+      </script>
     </div>
   </body>
 </html>

@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>MF-003 Paciente_antecedentes_medicos</title>
+    <title>MF-003 historia_clinica_antecedentes_medicos</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -11,6 +11,7 @@
 <script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript" src="../assets/js/bootstrap.js"></script>
 <script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+<script type="text/javascript" src="../assets/js/imageMapResizer.min.js"></script>
 
   </head>
   <body>
@@ -18,7 +19,7 @@
 
       <!-- Name Title -->
 
-      <h1>MF-003 Paciente_antecedentes_medicos</h1>
+      <h1>MF-003 historia_clinica_antecedentes_medicos</h1>
 
       <!-- Type and Stereotype -->
 
@@ -46,7 +47,7 @@
           <span class="label label-info"><a href='0aaf5ee93add081c270d804da800d0bd.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Modelo de datos físico</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='5c704ef114d54c31339f8f270f3e79dd.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-003 Paciente_antecedentes_medicos</a></span>
+          <span class="label label-info"><a href='5c704ef114d54c31339f8f270f3e79dd.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-003 historia_clinica_antecedentes_medicos</a></span>
         
       </section>
 
@@ -63,7 +64,7 @@
           
             <p>Registra la información relevante sobre el historial médico del paciente, como enfermedades previas, tratamientos médicos actuales, alergias, y otra información de salud que pueda influir en la atención odontológica. Está directamente relacionada con la tabla de pacientes y se utiliza para evaluar riesgos y planificar tratamientos adecuados.</p>
 
-<p>Tamaño esperado:  70 bytes</p>
+<p>Tamaño esperado:  66 bytes</p>
           
         </div>
       </section>
@@ -200,15 +201,15 @@
           </tr>
           
           <tr>
-            <td><a href="379b79d0edf319776d89e23c7a749578.html">Paciente_DNI</a></td>
-            <td>TEXT</td>
+            <td><a href="379b79d0edf319776d89e23c7a749578.html">historia_clinica_id</a></td>
+            <td>INTEGER</td>
             <td><span class='label label-info'>true</span></td>
             <td><span class='label label-info'>true</span></td>
             <td>
               
-                <a href='9de644fbd9ed4f041589a1229f3d107b.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-001 Paciente</a> ::
+                <a href='4d6135d866839604de6a0266c995cbe1.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-012 historia_clinica</a> ::
               
-              <a href='d72a55d09de7be73a8238ad5d6eb6d47.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>DNI</a>
+              <a href='d2ec56d1c475c0ec5de47234ef6f3a41.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>historia_clinica_id</a>
             </td>
             <td><span class='label label-info'>false</span></td>
             <td><span class='label label-info'>false</span></td>
@@ -403,10 +404,10 @@
           
           
           <tr>
-            <td><a href='9de644fbd9ed4f041589a1229f3d107b.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-001 Paciente</a></td>
+            <td><a href='4d6135d866839604de6a0266c995cbe1.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-012 historia_clinica</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='1e29034fe4ba8bf81e32e5a13ef47d6b.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-003 Paciente_antecedentes_medicos—MF-001 Paciente)</a></td>
+            <td><a href='75cee64f9aa46fea0fd24d1f45fdae8c.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-012 historia_clinica—MF-003 historia_clinica_antecedentes_medicos)</a></td>
           </tr>
           
         </table>                
@@ -440,7 +441,7 @@
     
     <tr>
         <td>name</td>
-        <td>MF-003 Paciente_antecedentes_medicos</td>
+        <td>MF-003 historia_clinica_antecedentes_medicos</td>
     </tr>
     
     
@@ -473,7 +474,7 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='1e29034fe4ba8bf81e32e5a13ef47d6b.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-003 Paciente_antecedentes_medicos—MF-001 Paciente)</a></li>
+        <li><a href='75cee64f9aa46fea0fd24d1f45fdae8c.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-012 historia_clinica—MF-003 historia_clinica_antecedentes_medicos)</a></li>
         
     </ul>
 </section>
@@ -484,17 +485,28 @@
 
       
       
+
+
+      <!-- Diagrams -->
+      
+      
+      
 <section class="element-list">
-    <h3>Owned Elements</h3>
+    <h3>Diagrams</h3>
     <ul class="nav nav-list">
         
-        <li><a href='1e29034fe4ba8bf81e32e5a13ef47d6b.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-003 Paciente_antecedentes_medicos—MF-001 Paciente)</a></li>
+        <li><a href='e88e848897a9a8d3a55ed33e704150ae.html'><span class='node-icon staruml-icon icon-ERDDiagram'></span>Diagrama relacional físico</a></li>
         
     </ul>
 </section>
 
 
-
+      
+      
+      <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->
+      <script>
+      imageMapResize();
+      </script>
     </div>
   </body>
 </html>

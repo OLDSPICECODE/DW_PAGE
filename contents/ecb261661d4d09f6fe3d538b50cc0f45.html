@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>MF-009 Presupuesto</title>
+    <title>MF-009 presupuesto</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -11,6 +11,7 @@
 <script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript" src="../assets/js/bootstrap.js"></script>
 <script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+<script type="text/javascript" src="../assets/js/imageMapResizer.min.js"></script>
 
   </head>
   <body>
@@ -18,7 +19,7 @@
 
       <!-- Name Title -->
 
-      <h1>MF-009 Presupuesto</h1>
+      <h1>MF-009 presupuesto</h1>
 
       <!-- Type and Stereotype -->
 
@@ -46,7 +47,7 @@
           <span class="label label-info"><a href='0aaf5ee93add081c270d804da800d0bd.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Modelo de datos físico</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='ecb261661d4d09f6fe3d538b50cc0f45.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-009 Presupuesto</a></span>
+          <span class="label label-info"><a href='ecb261661d4d09f6fe3d538b50cc0f45.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-009 presupuesto</a></span>
         
       </section>
 
@@ -200,28 +201,30 @@
           </tr>
           
           <tr>
-            <td><a href="645109a737b62a44964af3fc5e342e20.html">Tratamiento_ID</a></td>
+            <td><a href="645109a737b62a44964af3fc5e342e20.html">presupuesto_id</a></td>
             <td>INTEGER</td>
             <td><span class='label label-info'>true</span></td>
             <td><span class='label label-info'>true</span></td>
             <td>
               
-              <span class='label label-info'>null</span>
+                <a href='e03afb950528b06087964cbb52f41ca6.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-006 tratamiento</a> ::
+              
+              <a href='a85583cd89e427444c56a0b2b6550295.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>tratamiento_id</a>
             </td>
             <td><span class='label label-info'>false</span></td>
             <td><span class='label label-info'>false</span></td>
           </tr>
           
           <tr>
-            <td><a href="178357a9cba609f1067e67db3f95e47c.html">Paciente_DNI</a></td>
+            <td><a href="178357a9cba609f1067e67db3f95e47c.html">paciente_dni</a></td>
             <td>TEXT</td>
             <td><span class='label label-info'>false</span></td>
             <td><span class='label label-info'>true</span></td>
             <td>
               
-                <a href='9de644fbd9ed4f041589a1229f3d107b.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-001 Paciente</a> ::
+                <a href='9de644fbd9ed4f041589a1229f3d107b.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-001 paciente</a> ::
               
-              <a href='d72a55d09de7be73a8238ad5d6eb6d47.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>DNI</a>
+              <a href='d72a55d09de7be73a8238ad5d6eb6d47.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>paciente_dni</a>
             </td>
             <td><span class='label label-info'>false</span></td>
             <td><span class='label label-info'>false</span></td>
@@ -247,42 +250,42 @@
           
           
           <tr>
-            <td><a href='9de644fbd9ed4f041589a1229f3d107b.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-001 Paciente</a></td>
+            <td><a href='9de644fbd9ed4f041589a1229f3d107b.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-001 paciente</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='8dd1e965b6dddcbeb948480676ef120d.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-001 Paciente—MF-009 Presupuesto)</a></td>
+            <td><a href='8dd1e965b6dddcbeb948480676ef120d.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-001 paciente—MF-009 presupuesto)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='e03afb950528b06087964cbb52f41ca6.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-006 Tratamiento</a></td>
+            <td><a href='e03afb950528b06087964cbb52f41ca6.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-006 tratamiento</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='e9ab22e54764f2339ff62e8c3ad9bc5e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-006 Tratamiento—MF-009 Presupuesto)</a></td>
+            <td><a href='e9ab22e54764f2339ff62e8c3ad9bc5e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-006 tratamiento—MF-009 presupuesto)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='57f26b491f1f102a52d405d82d24ba7a.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-010 Presupuesto_item</a></td>
+            <td><a href='57f26b491f1f102a52d405d82d24ba7a.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-010 presupuesto_item</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='99e79936deefed2d3daca5e3b52256c6.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-009 Presupuesto—MF-010 Presupuesto_item)</a></td>
+            <td><a href='99e79936deefed2d3daca5e3b52256c6.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-009 presupuesto—MF-010 presupuesto_item)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='c4435477eea4b141f2467bba5dfb79c1.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-011 Paciente_pago</a></td>
+            <td><a href='c4435477eea4b141f2467bba5dfb79c1.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-011 paciente_pago</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='128f0cafe6a72dd8db43c4632bb59a93.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-009 Presupuesto—MF-011 Paciente_pago)</a></td>
+            <td><a href='128f0cafe6a72dd8db43c4632bb59a93.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-009 presupuesto—MF-011 paciente_pago)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='c4435477eea4b141f2467bba5dfb79c1.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-011 Paciente_pago</a></td>
+            <td><a href='c4435477eea4b141f2467bba5dfb79c1.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-011 paciente_pago</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='21297f635490d70a2b0fd37b0f19918e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-011 Paciente_pago—MF-009 Presupuesto)</a></td>
+            <td><a href='21297f635490d70a2b0fd37b0f19918e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-011 paciente_pago—MF-009 presupuesto)</a></td>
           </tr>
           
         </table>                
@@ -316,7 +319,7 @@
     
     <tr>
         <td>name</td>
-        <td>MF-009 Presupuesto</td>
+        <td>MF-009 presupuesto</td>
     </tr>
     
     
@@ -349,15 +352,15 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='8dd1e965b6dddcbeb948480676ef120d.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-001 Paciente—MF-009 Presupuesto)</a></li>
+        <li><a href='8dd1e965b6dddcbeb948480676ef120d.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-001 paciente—MF-009 presupuesto)</a></li>
         
-        <li><a href='e9ab22e54764f2339ff62e8c3ad9bc5e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-006 Tratamiento—MF-009 Presupuesto)</a></li>
+        <li><a href='e9ab22e54764f2339ff62e8c3ad9bc5e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-006 tratamiento—MF-009 presupuesto)</a></li>
         
-        <li><a href='99e79936deefed2d3daca5e3b52256c6.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-009 Presupuesto—MF-010 Presupuesto_item)</a></li>
+        <li><a href='99e79936deefed2d3daca5e3b52256c6.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-009 presupuesto—MF-010 presupuesto_item)</a></li>
         
-        <li><a href='128f0cafe6a72dd8db43c4632bb59a93.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-009 Presupuesto—MF-011 Paciente_pago)</a></li>
+        <li><a href='128f0cafe6a72dd8db43c4632bb59a93.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-009 presupuesto—MF-011 paciente_pago)</a></li>
         
-        <li><a href='21297f635490d70a2b0fd37b0f19918e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-011 Paciente_pago—MF-009 Presupuesto)</a></li>
+        <li><a href='21297f635490d70a2b0fd37b0f19918e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-011 paciente_pago—MF-009 presupuesto)</a></li>
         
     </ul>
 </section>
@@ -372,15 +375,35 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='99e79936deefed2d3daca5e3b52256c6.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-009 Presupuesto—MF-010 Presupuesto_item)</a></li>
+        <li><a href='99e79936deefed2d3daca5e3b52256c6.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-009 presupuesto—MF-010 presupuesto_item)</a></li>
         
-        <li><a href='128f0cafe6a72dd8db43c4632bb59a93.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-009 Presupuesto—MF-011 Paciente_pago)</a></li>
+        <li><a href='128f0cafe6a72dd8db43c4632bb59a93.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-009 presupuesto—MF-011 paciente_pago)</a></li>
         
     </ul>
 </section>
 
 
 
+      <!-- Diagrams -->
+      
+      
+      
+<section class="element-list">
+    <h3>Diagrams</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='e88e848897a9a8d3a55ed33e704150ae.html'><span class='node-icon staruml-icon icon-ERDDiagram'></span>Diagrama relacional físico</a></li>
+        
+    </ul>
+</section>
+
+
+      
+      
+      <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->
+      <script>
+      imageMapResize();
+      </script>
     </div>
   </body>
 </html>
