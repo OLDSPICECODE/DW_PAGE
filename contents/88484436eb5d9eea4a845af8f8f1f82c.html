@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>MR-008 odontograma</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/icon-font/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+
+  </head>
+  <body>
+    <div>
+
+      <!-- Name Title -->
+
+      <h1>MR-008 odontograma</h1>
+
+      <!-- Type and Stereotype -->
+
+      <section style="margin-top: .5em;">
+        <span class="alert alert-info">
+          <span class="node-icon staruml-icon icon-ERDEntity"></span>
+          ERDEntity
+        </span>
+        
+      </section>
+
+      <!-- Path -->
+
+      <section style="margin-top: 10px">
+        
+        
+        
+          
+          <span class="label label-info"><a href='0fa3e26321c26558efa77ff144c36f21.html'><span class='node-icon staruml-icon icon-Project'></span>Dentware</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='af7d9745e215e592d9dcc604230d6468.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Modelo de diseño</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='7f5c99de212ba44c955888d5a9a7442c.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Modelo de datos lógico</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='88484436eb5d9eea4a845af8f8f1f82c.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MR-008 odontograma</a></span>
+        
+      </section>
+
+      <!-- Diagram -->
+
+      
+
+      <!-- Description -->
+
+      
+      <section>
+        <h3>Description</h3>
+        <div>
+          
+            <p>Registra gráficamente el estado dental del paciente. Para cada tratamiento deben existir tres odontogramas: el estado del paciente sin tratar, el tratamiento proyectado y un tercer odontograma que registre el avance del tratamiento.</p>
+          
+        </div>
+      </section>
+      
+
+      <!-- Specification -->
+
+      
+
+      <!-- Directed Relationship -->
+
+      
+
+      <!-- Undirected Relationship -->
+
+      
+
+      <!-- Classifier -->
+
+      
+
+      <!-- Interface -->
+
+      
+
+      <!-- Component -->
+
+      
+
+      <!-- Node -->
+
+      
+
+      <!-- Actor -->
+
+      
+
+      <!-- Use Case -->
+
+      
+
+      <!-- Template Parameters -->
+
+      
+
+      <!-- Literals -->
+
+      
+
+      <!-- Attributes -->
+
+      
+
+      <!-- Operations -->
+
+      
+
+      <!-- Receptions -->
+
+      
+
+      <!-- Extension Points -->
+
+      
+
+      <!-- Parameters -->
+
+      
+
+      <!-- Diagrams -->
+
+      
+      
+
+      <!-- Behavior -->
+
+      
+
+      <!-- Action -->
+
+      
+
+      <!-- Interaction -->
+
+      
+
+      <!-- CombinedFragment -->
+
+      
+
+      <!-- Activity -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State -->
+
+      
+
+      <!-- Vertex -->
+
+      
+
+      <!-- Transition -->
+
+      
+
+      <!-- Data Model (ERD) -->
+
+      
+
+      <!-- Columns (ERD) -->
+
+      
+      <section>
+        <h3>Columns</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="20%">Name</th>
+            <th width="20%">Type</th>
+            <th width="10%">Primary Key</th>
+            <th width="10%">Foreign Key</th>
+            <th width="20%">Reference To</th>
+            <th width="10%">Nullable</th>
+            <th width="10%">Unique</th>
+          </tr>
+          
+          <tr>
+            <td><a href="662010322918d582cec3b050f2f92891.html">historia_clinica_id</a></td>
+            <td>INTEGER</td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='3fe650bc4feea3653518d24fec6a1954.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MR-012 historia_clinica</a> ::
+              
+              <a href='b1a45b65c7019483556d61014dc9d6c3.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>historia_clinica_id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="8e930bc6cacddc102d142d5bde25ade4.html">odontograma_id</a></td>
+            <td>INTEGER</td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="f0b3acfda315c78feb54a7ecd41642de.html">ultima_edicion</a></td>
+            <td>DATE</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="5375de23f71a52fb19f6fb5d7a536079.html">especificaciones</a></td>
+            <td>TEXT</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="837fd7d316ae1ccd52a0c0c19373542f.html">tipo</a></td>
+            <td>TEXT</td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="d35ac49c0d0de34f463cabdfd1ccd03e.html">observaciones</a></td>
+            <td>TEXT</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Related Entities (ERD) -->
+
+      
+      <section>
+        <h3>Related Entities</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="25%">Entity</th>
+            <th width="25%">Cardinality</th>
+            <th width="25%">Reference Name</th>
+            <th width="25%">Relationship</th>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='bc97567e394742696b2347fa593e1a7e.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MR-001 paciente</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='aceaf345f6171626daefac0b25d86fe9.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-001 paciente—MR-008 odontograma)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='b6572138c5d7f1e9c1ac7bd044ecbdbd.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MR-013 odontograma_entrada_par_dientes</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='d4794b2f5b25c1d0d5d8bbe794640a62.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-008 odontograma—MR-013 odontograma_entrada_par_dientes)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='240838e77c04cd0f71ef58144d95d687.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MR-014 odontograma_entrada_areas_de_dientes</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='ac18f7729cef9c69c68e0db53bae63b9.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-008 odontograma—MR-014 odontograma_entrada_areas_de_dientes)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='a6d8910868fb472fc681114607dfb935.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MR-015 odontograma_entrada_bordes_dientes</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='f01b25b6ed482eb1a9cf4b15b477688e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-008 odontograma—MR-015 odontograma_entrada_bordes_dientes)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='d1837e5a8fb28fc743283cab92ddfcbf.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MR-016 odontograma_entrada_dientes</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='20d17546c8913cabfe0ff29931b3f0a5.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-008 odontograma—MR-016 odontograma_entrada_dientes)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='88484436eb5d9eea4a845af8f8f1f82c.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MR-008 odontograma</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='67215fabeaa594142f6f2eb09a648c3d.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-008 odontograma—MR-008 odontograma)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='e6a774dbde1a73e2976bbbeb3faf6db8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MR-017 odontograma_entrada_dibujo_dientes</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='624d4d12221b6927e03930ff627959a5.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-008 odontograma—MR-017 odontograma_entrada_dibujo_dientes)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='06de62034962b76dd9b438da8b1a19c9.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MR-018 odontograma_entrada_rango_dientes</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='2c455f356c5d36750a9e30124fc68e76.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-008 odontograma—MR-018 odontograma_entrada_rango_dientes)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='3fe650bc4feea3653518d24fec6a1954.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MR-012 historia_clinica</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='acd50215a33c986629c51da2595f8705.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-012 historia_clinica—MR-008 odontograma)</a></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Data Flows (DFD) -->
+
+      
+
+      <!-- Flows (Flowchart) -->
+
+      
+
+      <!-- Properties -->
+
+      <section>
+        <h3>Properties</h3>
+        
+        <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>MR-008 odontograma</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</table>                
+
+      </section>
+
+      <!-- Tags -->
+
+      
+
+      <!-- Constraints, Dependencies, Dependants -->
+
+      
+
+      <!-- Relationships -->
+
+      
+      
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='aceaf345f6171626daefac0b25d86fe9.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-001 paciente—MR-008 odontograma)</a></li>
+        
+        <li><a href='d4794b2f5b25c1d0d5d8bbe794640a62.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-008 odontograma—MR-013 odontograma_entrada_par_dientes)</a></li>
+        
+        <li><a href='ac18f7729cef9c69c68e0db53bae63b9.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-008 odontograma—MR-014 odontograma_entrada_areas_de_dientes)</a></li>
+        
+        <li><a href='f01b25b6ed482eb1a9cf4b15b477688e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-008 odontograma—MR-015 odontograma_entrada_bordes_dientes)</a></li>
+        
+        <li><a href='20d17546c8913cabfe0ff29931b3f0a5.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-008 odontograma—MR-016 odontograma_entrada_dientes)</a></li>
+        
+        <li><a href='67215fabeaa594142f6f2eb09a648c3d.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-008 odontograma—MR-008 odontograma)</a></li>
+        
+        <li><a href='624d4d12221b6927e03930ff627959a5.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-008 odontograma—MR-017 odontograma_entrada_dibujo_dientes)</a></li>
+        
+        <li><a href='2c455f356c5d36750a9e30124fc68e76.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-008 odontograma—MR-018 odontograma_entrada_rango_dientes)</a></li>
+        
+        <li><a href='acd50215a33c986629c51da2595f8705.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-012 historia_clinica—MR-008 odontograma)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Owned Elements -->
+
+      
+      
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='d4794b2f5b25c1d0d5d8bbe794640a62.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-008 odontograma—MR-013 odontograma_entrada_par_dientes)</a></li>
+        
+        <li><a href='ac18f7729cef9c69c68e0db53bae63b9.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-008 odontograma—MR-014 odontograma_entrada_areas_de_dientes)</a></li>
+        
+        <li><a href='f01b25b6ed482eb1a9cf4b15b477688e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-008 odontograma—MR-015 odontograma_entrada_bordes_dientes)</a></li>
+        
+        <li><a href='20d17546c8913cabfe0ff29931b3f0a5.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-008 odontograma—MR-016 odontograma_entrada_dientes)</a></li>
+        
+        <li><a href='67215fabeaa594142f6f2eb09a648c3d.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-008 odontograma—MR-008 odontograma)</a></li>
+        
+        <li><a href='624d4d12221b6927e03930ff627959a5.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-008 odontograma—MR-017 odontograma_entrada_dibujo_dientes)</a></li>
+        
+        <li><a href='2c455f356c5d36750a9e30124fc68e76.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-008 odontograma—MR-018 odontograma_entrada_rango_dientes)</a></li>
+        
+    </ul>
+</section>
+
+
+
+    </div>
+  </body>
+</html>

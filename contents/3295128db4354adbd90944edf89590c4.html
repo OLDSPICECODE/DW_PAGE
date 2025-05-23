@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>MF-012 historia_clinica</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/icon-font/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+
+  </head>
+  <body>
+    <div>
+
+      <!-- Name Title -->
+
+      <h1>MF-012 historia_clinica</h1>
+
+      <!-- Type and Stereotype -->
+
+      <section style="margin-top: .5em;">
+        <span class="alert alert-info">
+          <span class="node-icon staruml-icon icon-ERDEntity"></span>
+          ERDEntity
+        </span>
+        
+      </section>
+
+      <!-- Path -->
+
+      <section style="margin-top: 10px">
+        
+        
+        
+          
+          <span class="label label-info"><a href='0fa3e26321c26558efa77ff144c36f21.html'><span class='node-icon staruml-icon icon-Project'></span>Dentware</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='814d5faad578b7cef0a172ad9dd81478.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Modelo de construcción</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='7ad626291e225654f7c38d78e26e1292.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Modelo de datos físico</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='3295128db4354adbd90944edf89590c4.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-012 historia_clinica</a></span>
+        
+      </section>
+
+      <!-- Diagram -->
+
+      
+
+      <!-- Description -->
+
+      
+      <section>
+        <h3>Description</h3>
+        <div>
+          
+            <p>Es la tabla que se relaciona con las demás tablas que conforman la historia clínica del paciente</p>
+
+<p>Tamaño esperado: 22 bytes</p>
+          
+        </div>
+      </section>
+      
+
+      <!-- Specification -->
+
+      
+
+      <!-- Directed Relationship -->
+
+      
+
+      <!-- Undirected Relationship -->
+
+      
+
+      <!-- Classifier -->
+
+      
+
+      <!-- Interface -->
+
+      
+
+      <!-- Component -->
+
+      
+
+      <!-- Node -->
+
+      
+
+      <!-- Actor -->
+
+      
+
+      <!-- Use Case -->
+
+      
+
+      <!-- Template Parameters -->
+
+      
+
+      <!-- Literals -->
+
+      
+
+      <!-- Attributes -->
+
+      
+
+      <!-- Operations -->
+
+      
+
+      <!-- Receptions -->
+
+      
+
+      <!-- Extension Points -->
+
+      
+
+      <!-- Parameters -->
+
+      
+
+      <!-- Diagrams -->
+
+      
+      
+
+      <!-- Behavior -->
+
+      
+
+      <!-- Action -->
+
+      
+
+      <!-- Interaction -->
+
+      
+
+      <!-- CombinedFragment -->
+
+      
+
+      <!-- Activity -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State -->
+
+      
+
+      <!-- Vertex -->
+
+      
+
+      <!-- Transition -->
+
+      
+
+      <!-- Data Model (ERD) -->
+
+      
+
+      <!-- Columns (ERD) -->
+
+      
+      <section>
+        <h3>Columns</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="20%">Name</th>
+            <th width="20%">Type</th>
+            <th width="10%">Primary Key</th>
+            <th width="10%">Foreign Key</th>
+            <th width="20%">Reference To</th>
+            <th width="10%">Nullable</th>
+            <th width="10%">Unique</th>
+          </tr>
+          
+          <tr>
+            <td><a href="eae53d2e0773a678e1931e79bf79102d.html">historia_clinica_id</a></td>
+            <td>SERIAL</td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="9798a0a398d12a818d257a39fa4477c5.html">fecha_creacion</a></td>
+            <td>DATE</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="7347410598533a0cc92fa5cd1260d955.html">paciente_dni</a></td>
+            <td>TEXT</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='d9cdb00d364024817ab9f5f3b078b3ae.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-001 paciente</a> ::
+              
+              <a href='416a0eb7419be0cd2aef4f8c8148ebc7.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>paciente_dni</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Related Entities (ERD) -->
+
+      
+      <section>
+        <h3>Related Entities</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="25%">Entity</th>
+            <th width="25%">Cardinality</th>
+            <th width="25%">Reference Name</th>
+            <th width="25%">Relationship</th>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='d9cdb00d364024817ab9f5f3b078b3ae.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-001 paciente</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='e211741e73e2460b02feac653aabd22c.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-001 paciente—MF-012 historia_clinica)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='7107cdab0f9c80df2c935621a3e3c14a.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-006 tratamiento</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='95b5b9927f823cd3f6ec28c06391d021.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-012 historia_clinica—MF-006 tratamiento)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='6e2af1043c77a58aadc2ec2997e74432.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-005 paciente_examen_auxiliar</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='95a0bf2dfcb3a66f1e7256dc4b3e8734.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-012 historia_clinica—MF-005 paciente_examen_auxiliar)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='a14c3fc71cbf9bcbc8e9636f5e88acc0.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-008 odontograma</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='f34d75f24bbdc24019e3d83551aff6e5.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-012 historia_clinica—MF-008 odontograma)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='5c9c223de9f5788fbe83ee2a7c118ad5.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-002 historia_clinica_examenes_estomatologicos</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='758f60418259d5ffacba300dc36c5c36.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-012 historia_clinica—MF-002 historia_clinica_examenes_estomatologicos)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='d7b7cdf5b74bc51a43f0b83e520db50c.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MF-003 historia_clinica_antecedentes_medicos</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='12659d5a4b1cfe944147c39db7ec671c.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-012 historia_clinica—MF-003 historia_clinica_antecedentes_medicos)</a></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Data Flows (DFD) -->
+
+      
+
+      <!-- Flows (Flowchart) -->
+
+      
+
+      <!-- Properties -->
+
+      <section>
+        <h3>Properties</h3>
+        
+        <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>MF-012 historia_clinica</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</table>                
+
+      </section>
+
+      <!-- Tags -->
+
+      
+
+      <!-- Constraints, Dependencies, Dependants -->
+
+      
+
+      <!-- Relationships -->
+
+      
+      
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='e211741e73e2460b02feac653aabd22c.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-001 paciente—MF-012 historia_clinica)</a></li>
+        
+        <li><a href='95b5b9927f823cd3f6ec28c06391d021.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-012 historia_clinica—MF-006 tratamiento)</a></li>
+        
+        <li><a href='95a0bf2dfcb3a66f1e7256dc4b3e8734.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-012 historia_clinica—MF-005 paciente_examen_auxiliar)</a></li>
+        
+        <li><a href='f34d75f24bbdc24019e3d83551aff6e5.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-012 historia_clinica—MF-008 odontograma)</a></li>
+        
+        <li><a href='758f60418259d5ffacba300dc36c5c36.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-012 historia_clinica—MF-002 historia_clinica_examenes_estomatologicos)</a></li>
+        
+        <li><a href='12659d5a4b1cfe944147c39db7ec671c.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-012 historia_clinica—MF-003 historia_clinica_antecedentes_medicos)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Owned Elements -->
+
+      
+      
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='95b5b9927f823cd3f6ec28c06391d021.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-012 historia_clinica—MF-006 tratamiento)</a></li>
+        
+        <li><a href='95a0bf2dfcb3a66f1e7256dc4b3e8734.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-012 historia_clinica—MF-005 paciente_examen_auxiliar)</a></li>
+        
+        <li><a href='f34d75f24bbdc24019e3d83551aff6e5.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-012 historia_clinica—MF-008 odontograma)</a></li>
+        
+        <li><a href='758f60418259d5ffacba300dc36c5c36.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-012 historia_clinica—MF-002 historia_clinica_examenes_estomatologicos)</a></li>
+        
+        <li><a href='12659d5a4b1cfe944147c39db7ec671c.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MF-012 historia_clinica—MF-003 historia_clinica_antecedentes_medicos)</a></li>
+        
+    </ul>
+</section>
+
+
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CD-005 Paciente</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/icon-font/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+
+  </head>
+  <body>
+    <div>
+
+      <!-- Name Title -->
+
+      <h1>CD-005 Paciente</h1>
+
+      <!-- Type and Stereotype -->
+
+      <section style="margin-top: .5em;">
+        <span class="alert alert-info">
+          <span class="node-icon staruml-icon icon-UMLClass"></span>
+          UMLClass
+        </span>
+        
+          <span style="margin-left: 10px" class="alert alert-info">«Control»</span>
+        
+      </section>
+
+      <!-- Path -->
+
+      <section style="margin-top: 10px">
+        
+        
+        
+          
+          <span class="label label-info"><a href='0fa3e26321c26558efa77ff144c36f21.html'><span class='node-icon staruml-icon icon-Project'></span>Dentware</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='af7d9745e215e592d9dcc604230d6468.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Modelo de diseño</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='4f205da741b94819847e9e1c6b758f1e.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Modelo de clases de diseño</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='6d6ccef115b0c81d15734588aedda7cc.html'><span class='node-icon staruml-icon icon-UMLClass'></span>«Control»CD-005 Paciente</a></span>
+        
+      </section>
+
+      <!-- Diagram -->
+
+      
+
+      <!-- Description -->
+
+      
+      <section>
+        <h3>Description</h3>
+        <div>
+          
+            <span class="label label-info">none</span>
+          
+        </div>
+      </section>
+      
+
+      <!-- Specification -->
+
+      
+
+      <!-- Directed Relationship -->
+
+      
+
+      <!-- Undirected Relationship -->
+
+      
+
+      <!-- Classifier -->
+
+      
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
+
+      <!-- Interface -->
+
+      
+
+      <!-- Component -->
+
+      
+
+      <!-- Node -->
+
+      
+
+      <!-- Actor -->
+
+      
+
+      <!-- Use Case -->
+
+      
+
+      <!-- Template Parameters -->
+
+      
+
+      <!-- Literals -->
+
+      
+
+      <!-- Attributes -->
+
+      
+
+      <!-- Operations -->
+
+      
+      <section>
+        <h3>Operations</h3>
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th>Visibility</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="0bc10e1a2de6c339db8a88f47e1c5c4e.html">existePaciente(DNI: string): bool</a></td>
+            <td><p>Función que verifica con Entity Paciente si un paciente existe.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="6f4a3fc93b7ff6cdd930a649f58f500b.html">RegistrarPaciente(nombres: string, apellidos: string, fecha _de _nacimiento: date, lugar_de_nacimiento: string, estado_civil: string, direccion: string, telefono: string, email: string, DNI: string, ocupacion: string, lugar_trabajo_estudio: string, apoderado: string): void</a></td>
+            <td><p>Registra un nuevo paciente en el sistema, pasando los datos ingresados en el formulario de Boundary Paciente a Entity Paciente.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="3da54eb3723c42ec93751812cdeca5c4.html">BuscarPaciente(nombrePaciente: string): list</a></td>
+            <td><p>Función que verifica con Entity Paciente nombres de pacientes que coincidan con la búsqueda realizada y retorna las coincidencias.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="6b9ebcc81415791d402a1001e96411dd.html">MostrarDatosFicha(): list</a></td>
+            <td><p>Función que devuelve la información general contenida en la ficha del paciente, consultando con Entity Paciente.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="33113bec4fc2302e43e72dcb33c9b7fd.html">ActualizarFormularioPaciente(): void</a></td>
+            <td><p>Función que carga los datos personales del paciente, junto a sus antecedente médicos, consultando con Entity Paciente.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="e69e64ce6fe076a619287fb47b6e1893.html">ActualizarDatos(nombres: string, apellidos: string, fecha _de _nacimiento: date, lugar_de_nacimiento: string, estado_civil: string, direccion: string, telefono: string, email: string, DNI: string, ocupacion: string, lugar_trabajo_estudio: string, apoderado: string, antecedentes_medicos: list): void</a></td>
+            <td><p>Función que actualiza los datos personales del paciente, junto con sus antedecedentes médicos, por medio de un formulario en Boundary Actualización Datos de Paciente y lo pasa a Entity Paciente.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="26a99bed2b31ce1971093667a868831e.html">MostrarContraindicaciones(): list</a></td>
+            <td><p>Función que carga la lista de contraindicaciones del paciente, consultando con Entity Contraindicaciones Medicas.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="4781467b997ea0288350144cfab7e4d2.html">ActualizarDatos(contraindicacion: list, importante: bool): void</a></td>
+            <td><p>Función que actualiza la lista de contraindicaciones del paciente y su importancia, pasando los datos modificados a Entity Contraindicacion Medica.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="a814a7eb13bd2c86c918b47e75c317bd.html">VerificarImportancia(): bool</a></td>
+            <td><p>Función que retorna y verifica con Entity Contraindicacion Medica la importancia de las contraindicaciones médicas de un paciente.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="163bca526945b1fdcb5b8107f32b6be8.html">MostrarNovedadesPaciente(): string</a></td>
+            <td><p>Función que carga las novedades de un paciente, consultando con Entity Paciente.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="be44ac4e32f500c91b934ff87635655d.html">ActualizarDatos(novedades: string): void</a></td>
+            <td><p>Función que permite modificar las novedades de un paciente, pasando los cambios a Entity Paciente.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="54588eddd7677986f6efe7b131e4852e.html">MostrarListaExamAux(): list</a></td>
+            <td><p>Función que retorna la lista de exámenes auxiliares solicitados a un paciente, consultando con Entity Examen Auxiliar.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="20afe22b196405b0017f5be6356536e1.html">MostrarExamAux(archivo: string): string</a></td>
+            <td><p>Función que muestra un examen auxiliar en específico solicitado a un paciente, consultando con Entity Examen Auxiliar.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="b8b3f6bdb95338322e03314b9f86cdb7.html">DescargarExamAux(archivo: string): string</a></td>
+            <td><p>Función que permite descargar en formato pdf un examen auxiliar en específico solicitado a un paciente, consultando con Entity Examen Auxiliar.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="38bd97b40fcab52727fdcdffe81d5090.html">BorrarExamAux(archivo: string): void</a></td>
+            <td><p>Función que permite eliminar un examen auxiliar en específico solicitado a un paciente, consultando con Entity Examen Auxiliar.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="055373d661c4336c9a05f160a83912a2.html">GuardarArchivo(archivo: string): void</a></td>
+            <td><p>Función que permite guardar un examen auxiliar en específico solicitado a un paciente, pasando la ruta del archivo a Entity Examen Auxiliar.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="c7e5af0cd77aa8a2f5f2baa0c389384a.html">MostrarListaExamAux(): void</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="2ba8824764585e6248d2d30d38c321b7.html">MostrarListaExamEstom(): list</a></td>
+            <td><p>Función que carga la lista de exámenes estomatológicos realizados a un paciente, consultando con Entity Historia clinica.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="cbba97aff23f620fc133ea09031c136b.html">ActualizarDatos(exEstomatologicos: list): void</a></td>
+            <td><p>Función que permite actualizar la lista de exámenes estomatológicos realizados a un paciente, pasando la información a Entity Historia clinica.</p></td>
+          </tr>
+          
+        </table>
+      </section>
+      
+
+      <!-- Receptions -->
+
+      
+
+      <!-- Extension Points -->
+
+      
+
+      <!-- Parameters -->
+
+      
+
+      <!-- Diagrams -->
+
+      
+      
+
+      <!-- Behavior -->
+
+      
+
+      <!-- Action -->
+
+      
+
+      <!-- Interaction -->
+
+      
+
+      <!-- CombinedFragment -->
+
+      
+
+      <!-- Activity -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State -->
+
+      
+
+      <!-- Vertex -->
+
+      
+
+      <!-- Transition -->
+
+      
+
+      <!-- Data Model (ERD) -->
+
+      
+
+      <!-- Columns (ERD) -->
+
+      
+
+      <!-- Related Entities (ERD) -->
+
+      
+
+      <!-- Data Flows (DFD) -->
+
+      
+
+      <!-- Flows (Flowchart) -->
+
+      
+
+      <!-- Properties -->
+
+      <section>
+        <h3>Properties</h3>
+        
+        <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>CD-005 Paciente</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>stereotype</td>
+        <td>Control</td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>visibility</td>
+        <td>public</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>isAbstract</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isFinalSpecialization</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isLeaf</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isActive</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+</table>                
+
+      </section>
+
+      <!-- Tags -->
+
+      
+
+      <!-- Constraints, Dependencies, Dependants -->
+
+      
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
+
+      <!-- Relationships -->
+
+      
+      
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='6ed550af530a4263b1409e6b32c31eee.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-002 Inicio—CD-005 Paciente)</a></li>
+        
+        <li><a href='ca9b399e8b3380e25fd02339117fe041.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-004 Ficha de paciente—CD-005 Paciente)</a></li>
+        
+        <li><a href='53cca5c3a4c429c495ea881968e62296.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-005 Paciente—CD-006 Paciente)</a></li>
+        
+        <li><a href='a4e4ce5ad98576ba214709add83f3b88.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-005 Paciente—CD-028 Contraindicacion medica)</a></li>
+        
+        <li><a href='57240543c4cd59c593e3ff83938a36f6.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-005 Paciente—CD-0023 Actualización Datos de Paciente)</a></li>
+        
+        <li><a href='cf7ce2d5b2ed3b56f40246de84afcb07.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-005 Paciente—CD-027 Ventana Contraindicaciones Médicas)</a></li>
+        
+        <li><a href='6702be0309eb8f303abc2c3bf989a3e8.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-005 Paciente—CD-022 Ventana Novedades)</a></li>
+        
+        <li><a href='674eb90ad1c3e5b3e0820af504c9518f.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-005 Paciente—CD-018 Ventana Pagos)</a></li>
+        
+        <li><a href='02439adfba1b902a25a4ad5b896e11de.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-005 Paciente—CD-029 Ventana exámenes auxiliares)</a></li>
+        
+        <li><a href='0cd0632373c25b232ab0677213ba3672.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-005 Paciente—CD-021 Ventana exámenes estomatológicos)</a></li>
+        
+        <li><a href='370acf067d2a554670bf04fdfc5da08c.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-005 Paciente—CD-030 Examen Auxiliar)</a></li>
+        
+        <li><a href='d035da7af0f055ac2cd9f9357b58e805.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-005 Paciente—CD-031 Historia clinica)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Owned Elements -->
+
+      
+      
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='53cca5c3a4c429c495ea881968e62296.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-005 Paciente—CD-006 Paciente)</a></li>
+        
+        <li><a href='a4e4ce5ad98576ba214709add83f3b88.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-005 Paciente—CD-028 Contraindicacion medica)</a></li>
+        
+        <li><a href='57240543c4cd59c593e3ff83938a36f6.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-005 Paciente—CD-0023 Actualización Datos de Paciente)</a></li>
+        
+        <li><a href='cf7ce2d5b2ed3b56f40246de84afcb07.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-005 Paciente—CD-027 Ventana Contraindicaciones Médicas)</a></li>
+        
+        <li><a href='6702be0309eb8f303abc2c3bf989a3e8.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-005 Paciente—CD-022 Ventana Novedades)</a></li>
+        
+        <li><a href='674eb90ad1c3e5b3e0820af504c9518f.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-005 Paciente—CD-018 Ventana Pagos)</a></li>
+        
+        <li><a href='02439adfba1b902a25a4ad5b896e11de.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-005 Paciente—CD-029 Ventana exámenes auxiliares)</a></li>
+        
+        <li><a href='0cd0632373c25b232ab0677213ba3672.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-005 Paciente—CD-021 Ventana exámenes estomatológicos)</a></li>
+        
+        <li><a href='370acf067d2a554670bf04fdfc5da08c.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-005 Paciente—CD-030 Examen Auxiliar)</a></li>
+        
+        <li><a href='d035da7af0f055ac2cd9f9357b58e805.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-005 Paciente—CD-031 Historia clinica)</a></li>
+        
+    </ul>
+</section>
+
+
+
+    </div>
+  </body>
+</html>

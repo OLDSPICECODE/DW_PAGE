@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>MR-011 paciente_pago</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/icon-font/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+
+  </head>
+  <body>
+    <div>
+
+      <!-- Name Title -->
+
+      <h1>MR-011 paciente_pago</h1>
+
+      <!-- Type and Stereotype -->
+
+      <section style="margin-top: .5em;">
+        <span class="alert alert-info">
+          <span class="node-icon staruml-icon icon-ERDEntity"></span>
+          ERDEntity
+        </span>
+        
+      </section>
+
+      <!-- Path -->
+
+      <section style="margin-top: 10px">
+        
+        
+        
+          
+          <span class="label label-info"><a href='0fa3e26321c26558efa77ff144c36f21.html'><span class='node-icon staruml-icon icon-Project'></span>Dentware</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='af7d9745e215e592d9dcc604230d6468.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Modelo de diseño</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='7f5c99de212ba44c955888d5a9a7442c.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Modelo de datos lógico</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='3778ba5091cdedf6c5063316bd9fac35.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MR-011 paciente_pago</a></span>
+        
+      </section>
+
+      <!-- Diagram -->
+
+      
+
+      <!-- Description -->
+
+      
+      <section>
+        <h3>Description</h3>
+        <div>
+          
+            <p>Registra los pagos realizados por el paciente en relación con un presupuesto aprobado. No representa pagos electrónicos ni boletas fiscales, sino un control interno del historial de pagos registrados manualmente por el personal administrativo.</p>
+          
+        </div>
+      </section>
+      
+
+      <!-- Specification -->
+
+      
+
+      <!-- Directed Relationship -->
+
+      
+
+      <!-- Undirected Relationship -->
+
+      
+
+      <!-- Classifier -->
+
+      
+
+      <!-- Interface -->
+
+      
+
+      <!-- Component -->
+
+      
+
+      <!-- Node -->
+
+      
+
+      <!-- Actor -->
+
+      
+
+      <!-- Use Case -->
+
+      
+
+      <!-- Template Parameters -->
+
+      
+
+      <!-- Literals -->
+
+      
+
+      <!-- Attributes -->
+
+      
+
+      <!-- Operations -->
+
+      
+
+      <!-- Receptions -->
+
+      
+
+      <!-- Extension Points -->
+
+      
+
+      <!-- Parameters -->
+
+      
+
+      <!-- Diagrams -->
+
+      
+      
+
+      <!-- Behavior -->
+
+      
+
+      <!-- Action -->
+
+      
+
+      <!-- Interaction -->
+
+      
+
+      <!-- CombinedFragment -->
+
+      
+
+      <!-- Activity -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State -->
+
+      
+
+      <!-- Vertex -->
+
+      
+
+      <!-- Transition -->
+
+      
+
+      <!-- Data Model (ERD) -->
+
+      
+
+      <!-- Columns (ERD) -->
+
+      
+      <section>
+        <h3>Columns</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="20%">Name</th>
+            <th width="20%">Type</th>
+            <th width="10%">Primary Key</th>
+            <th width="10%">Foreign Key</th>
+            <th width="20%">Reference To</th>
+            <th width="10%">Nullable</th>
+            <th width="10%">Unique</th>
+          </tr>
+          
+          <tr>
+            <td><a href="c8e2e8d62fdcc25103de7d868f10f44e.html">paciente_dni</a></td>
+            <td>TEXT</td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='bc97567e394742696b2347fa593e1a7e.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MR-001 paciente</a> ::
+              
+              <a href='ee3639ae68117f7f94f0396d1e767d34.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>paciente_dni</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="56711091d4808a36e03d2991ca487f7a.html">pago_id</a></td>
+            <td>INTEGER</td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="fa109762e731e18ef9d98cd0a1a831f9.html">metodo</a></td>
+            <td>TEXT</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="2c8ca0d0dc6ee6e691ec636eeb7a7aa3.html">monto</a></td>
+            <td>INTEGER</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="9c8cb83f6fc0b410ab7e205fff8fae58.html">presupuesto_id</a></td>
+            <td>INTEGER</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='f07db31c4351b7574b13b929b4d51fbd.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MR-009 presupuesto</a> ::
+              
+              <a href='98c58e459ecc4336a219dc14df068828.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>presupuesto_id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Related Entities (ERD) -->
+
+      
+      <section>
+        <h3>Related Entities</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="25%">Entity</th>
+            <th width="25%">Cardinality</th>
+            <th width="25%">Reference Name</th>
+            <th width="25%">Relationship</th>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='bc97567e394742696b2347fa593e1a7e.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MR-001 paciente</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='33f44c159cee5f7f9fa1ec4b878db0de.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-001 paciente—MR-011 paciente_pago)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='1af40d8f884ebce66fda66d45b38046e.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MR-006 tratamiento</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='556a9dea7a515710c480bf18104ecaa0.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-006 tratamiento—MR-011 paciente_pago)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='f07db31c4351b7574b13b929b4d51fbd.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MR-009 presupuesto</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='1d32dfa7ecbdc2f0aa21fb66851a1296.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-009 presupuesto—MR-011 paciente_pago)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='f07db31c4351b7574b13b929b4d51fbd.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MR-009 presupuesto</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='83d09bc6f9711e5def4beaf29e1f8a23.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-011 paciente_pago—MR-009 presupuesto)</a></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Data Flows (DFD) -->
+
+      
+
+      <!-- Flows (Flowchart) -->
+
+      
+
+      <!-- Properties -->
+
+      <section>
+        <h3>Properties</h3>
+        
+        <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>MR-011 paciente_pago</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</table>                
+
+      </section>
+
+      <!-- Tags -->
+
+      
+
+      <!-- Constraints, Dependencies, Dependants -->
+
+      
+
+      <!-- Relationships -->
+
+      
+      
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='33f44c159cee5f7f9fa1ec4b878db0de.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-001 paciente—MR-011 paciente_pago)</a></li>
+        
+        <li><a href='556a9dea7a515710c480bf18104ecaa0.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-006 tratamiento—MR-011 paciente_pago)</a></li>
+        
+        <li><a href='1d32dfa7ecbdc2f0aa21fb66851a1296.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-009 presupuesto—MR-011 paciente_pago)</a></li>
+        
+        <li><a href='83d09bc6f9711e5def4beaf29e1f8a23.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-011 paciente_pago—MR-009 presupuesto)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Owned Elements -->
+
+      
+      
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='83d09bc6f9711e5def4beaf29e1f8a23.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MR-011 paciente_pago—MR-009 presupuesto)</a></li>
+        
+    </ul>
+</section>
+
+
+
+    </div>
+  </body>
+</html>

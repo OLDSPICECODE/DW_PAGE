@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CD-026 Odontograma</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/icon-font/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+
+  </head>
+  <body>
+    <div>
+
+      <!-- Name Title -->
+
+      <h1>CD-026 Odontograma</h1>
+
+      <!-- Type and Stereotype -->
+
+      <section style="margin-top: .5em;">
+        <span class="alert alert-info">
+          <span class="node-icon staruml-icon icon-UMLClass"></span>
+          UMLClass
+        </span>
+        
+          <span style="margin-left: 10px" class="alert alert-info"><a href='701195c8b5bcb7e8c6106a69376413b6.html'><span class='node-icon staruml-icon icon-UMLStereotype'></span>«Entity»</a></span>
+        
+      </section>
+
+      <!-- Path -->
+
+      <section style="margin-top: 10px">
+        
+        
+        
+          
+          <span class="label label-info"><a href='0fa3e26321c26558efa77ff144c36f21.html'><span class='node-icon staruml-icon icon-Project'></span>Dentware</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='af7d9745e215e592d9dcc604230d6468.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Modelo de diseño</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='4f205da741b94819847e9e1c6b758f1e.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Modelo de clases de diseño</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='f843b0017f7546c362ba35e8fc8db389.html'><span class='node-icon staruml-icon icon-UMLClass'></span>«Entity»CD-026 Odontograma</a></span>
+        
+      </section>
+
+      <!-- Diagram -->
+
+      
+
+      <!-- Description -->
+
+      
+      <section>
+        <h3>Description</h3>
+        <div>
+          
+            <span class="label label-info">none</span>
+          
+        </div>
+      </section>
+      
+
+      <!-- Specification -->
+
+      
+
+      <!-- Directed Relationship -->
+
+      
+
+      <!-- Undirected Relationship -->
+
+      
+
+      <!-- Classifier -->
+
+      
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
+
+      <!-- Interface -->
+
+      
+
+      <!-- Component -->
+
+      
+
+      <!-- Node -->
+
+      
+
+      <!-- Actor -->
+
+      
+
+      <!-- Use Case -->
+
+      
+
+      <!-- Template Parameters -->
+
+      
+
+      <!-- Literals -->
+
+      
+
+      <!-- Attributes -->
+
+      
+      <section>
+        <h3>Attributes</h3>
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th>Visibility</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Description</th>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="d164647e147bca628064e53195f9d5d7.html">imagen</a></td>
+            <td>string </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="edbb98e1bf92d2b654da0e91f2413645.html">ultima_edicion</a></td>
+            <td>date </td>
+            <td></td>
+          </tr>
+          
+        </table>
+      </section>
+      
+
+      <!-- Operations -->
+
+      
+      <section>
+        <h3>Operations</h3>
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th>Visibility</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="303c3598fc4746ac6d60309d2ca34234.html">CargarNuevoOdontograma(): narray</a></td>
+            <td><p>Función que  devuelve una nueva imagen de odontograma, de acuerdo a la tabla Odontograma de la base de datos.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="4abfff2dba1c06d803f552acf74a6265.html">GuardarDatos(ultima_edicion, imagen): void</a></td>
+            <td><p>Función que guarda los cambios realizados en un odontograma, almacena la fecha de ultima edición y la ruta a la imagen que contiene los cambios, dentro de la tabla Odontograma de la base de datos.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="37b664b4cb4a44551b5152e007623376.html">CargarImagenOdontograma(): narray</a></td>
+            <td><p>Función que devuelve una imagen de  un odontograma existente de acuerdo al documento solicitado, utilizando la información almacenada en la tabla Odontograma de la base de datos.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="575653a80ede0e9718186fb3c54fae20.html">CargarUltimoOdontogramaInicial(): narray</a></td>
+            <td><p>Función que carga y devuelve la imagen del último odontograma inicial guardado, de acuerdo a la información almacenada en la tabla Odontograma de la base de datos.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="822d9b101c0ee1acbdbb6bd6220d21ac.html">CargarUltimoOdontogramaTratamiento(): narray</a></td>
+            <td><p>Función que carga y devuelve la imagen del último odontograma de tratamiento guardado, de acuerdo a la información almacenada en la tabla Odontograma de la base de datos.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="ddef3430a44323fc80ac495cb71ff4fc.html">CargarUltimoOdontogramaEvolucion(): narray</a></td>
+            <td><p>Función que carga y devuelve la imagen del último odontograma de evolución guardado, de acuerdo a la información almacenada en la tabla Odontograma de la base de datos.</p></td>
+          </tr>
+          
+        </table>
+      </section>
+      
+
+      <!-- Receptions -->
+
+      
+
+      <!-- Extension Points -->
+
+      
+
+      <!-- Parameters -->
+
+      
+
+      <!-- Diagrams -->
+
+      
+      
+
+      <!-- Behavior -->
+
+      
+
+      <!-- Action -->
+
+      
+
+      <!-- Interaction -->
+
+      
+
+      <!-- CombinedFragment -->
+
+      
+
+      <!-- Activity -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State -->
+
+      
+
+      <!-- Vertex -->
+
+      
+
+      <!-- Transition -->
+
+      
+
+      <!-- Data Model (ERD) -->
+
+      
+
+      <!-- Columns (ERD) -->
+
+      
+
+      <!-- Related Entities (ERD) -->
+
+      
+
+      <!-- Data Flows (DFD) -->
+
+      
+
+      <!-- Flows (Flowchart) -->
+
+      
+
+      <!-- Properties -->
+
+      <section>
+        <h3>Properties</h3>
+        
+        <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>CD-026 Odontograma</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>stereotype</td>
+        <td><a href='701195c8b5bcb7e8c6106a69376413b6.html'><span class='node-icon staruml-icon icon-UMLStereotype'></span>«Entity»</a></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>visibility</td>
+        <td>public</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>isAbstract</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isFinalSpecialization</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isLeaf</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isActive</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+</table>                
+
+      </section>
+
+      <!-- Tags -->
+
+      
+
+      <!-- Constraints, Dependencies, Dependants -->
+
+      
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
+
+      <!-- Relationships -->
+
+      
+      
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='8456615321351504ac30939b6f37180f.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-025 Odontograma—CD-026 Odontograma)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Owned Elements -->
+
+      
+      
+
+
+    </div>
+  </body>
+</html>
