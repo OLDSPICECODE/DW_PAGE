@@ -147,9 +147,9 @@
           </tr>
           
           <tr>
-            <td>public</td>
-            <td><a href="cfddcf373472472f979bdffc2b6cd535.html">existe</a></td>
-            <td>bool </td>
+            <td>private</td>
+            <td><a href="cfddcf373472472f979bdffc2b6cd535.html">paciente_id</a></td>
+            <td>int </td>
             <td></td>
           </tr>
           
@@ -169,14 +169,14 @@
           
           <tr>
             <td>private</td>
-            <td><a href="73e4ffb8f7ff654883982ecc61d275ff.html">fecha_de_nacimiento</a></td>
+            <td><a href="73e4ffb8f7ff654883982ecc61d275ff.html">fecha_nacimiento</a></td>
             <td>date </td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
-            <td><a href="46cea2cc2dd4e1652eb9bd81276cc790.html">lugar_de_nacimiento</a></td>
+            <td><a href="46cea2cc2dd4e1652eb9bd81276cc790.html">lugar_nacimiento</a></td>
             <td>string </td>
             <td></td>
           </tr>
@@ -184,7 +184,7 @@
           <tr>
             <td>private</td>
             <td><a href="e1d3e4059f2298a95c4cc369cbfbda81.html">estado_civil</a></td>
-            <td>string </td>
+            <td>enum </td>
             <td></td>
           </tr>
           
@@ -205,13 +205,13 @@
           <tr>
             <td>private</td>
             <td><a href="ae286bda898a4457742c03bd775e25be.html">email</a></td>
-            <td>string </td>
+            <td>emailType </td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
-            <td><a href="5e35bfe86913fd9c61f7d30cd4428aea.html">DNI</a></td>
+            <td><a href="5e35bfe86913fd9c61f7d30cd4428aea.html">documento_identidad</a></td>
             <td>string </td>
             <td></td>
           </tr>
@@ -282,7 +282,7 @@
           
           <tr>
             <td>public</td>
-            <td><a href="e77dd81a9831b86fac176db7a7ec3cf6.html">RegistrarPaciente(nombres, apellidos, fecha _de _nacimiento, lugar_de_nacimiento, estado_civil, direccion, telefono, email, DNI, ocupacion, lugar_trabajo_estudio, apoderado): void</a></td>
+            <td><a href="e77dd81a9831b86fac176db7a7ec3cf6.html">crear_nueva_historia(db): None</a></td>
             <td><p>Registra un nuevo paciente en el sistema, pasando los datos ingresados en el formulario de Boundary Paciente a la tabla Paciente de la base de datos.</p></td>
           </tr>
           
@@ -306,7 +306,7 @@
           
           <tr>
             <td>public</td>
-            <td><a href="1680c690f74fd3f51e915c368db55ee1.html">ActualizarDatos(nombres, apellidos, fecha _de _nacimiento, lugar_de_nacimiento, estado_civil, direccion, telefono, email, DNI, ocupacion, lugar_trabajo_estudio, apoderado, antecedentes_medicos): void</a></td>
+            <td><a href="1680c690f74fd3f51e915c368db55ee1.html">ActualizarDatos(nombres, apellidos, fecha _de _nacimiento, lugar_de_nacimiento, estado_civil, direccion, telefono, email, DNI, ocupacion, lugar_trabajo_estudio, apoderado, antecedentes_medicos): string</a></td>
             <td><p>Función que actualiza los datos personales del paciente, junto con sus antedecedentes médicos en la tabla Paciente de la base de datos.</p></td>
           </tr>
           
@@ -318,7 +318,7 @@
           
           <tr>
             <td>public</td>
-            <td><a href="0f90888bc5ea510e8e74aaafa09ab679.html">ActualizarDatos(novedades): void</a></td>
+            <td><a href="0f90888bc5ea510e8e74aaafa09ab679.html">ActualizarDatos(novedades): string</a></td>
             <td><p>Función que permite modificar las novedades de un paciente en la tabla Paciente de la base de datos.</p></td>
           </tr>
           
