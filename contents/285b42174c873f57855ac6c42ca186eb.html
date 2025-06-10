@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>mostrar_lista_contraindicaciones</title>
+    <title>flash</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>mostrar_lista_contraindicaciones</h1>
+      <h1>flash</h1>
 
       <!-- Type and Stereotype -->
 
@@ -49,7 +49,7 @@
           <span class="label label-info"><a href='74823b85f8cd3b6208b4437542947894.html'><span class='node-icon staruml-icon icon-UMLClass'></span>«Boundary»CD-006 Ventana Contraindicaciones Médicas</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='285b42174c873f57855ac6c42ca186eb.html'><span class='node-icon staruml-icon icon-UMLOperation'></span>mostrar_lista_contraindicaciones</a></span>
+          <span class="label label-info"><a href='285b42174c873f57855ac6c42ca186eb.html'><span class='node-icon staruml-icon icon-UMLOperation'></span>flash</a></span>
         
       </section>
 
@@ -64,7 +64,7 @@
         <h3>Description</h3>
         <div>
           
-            <span class="label label-info">none</span>
+            <p>Función que guarda un mensaje y su categoría en la sesión para ser mostrado en la siguiente vista.</p>
           
         </div>
       </section>
@@ -145,16 +145,23 @@
           
           <tr>
             <td>in</td>
-            <td><a href="b004ea093d464c2a6c0de30ceb32d1af.html">historia_id</a></td>
-            <td>int </td>
+            <td><a href="b004ea093d464c2a6c0de30ceb32d1af.html">mensaje</a></td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>return</td>
             <td><a href="c235e41778aef5270059a1fcf5e9723b.html">(unnamed)</a></td>
-            <td>list </td>
+            <td>void</td>
             <td><p>Función que permite mostrar la lista de contraindicaciones  y si estas son graves o no.</p></td>
+          </tr>
+          
+          <tr>
+            <td>in</td>
+            <td><a href="2e12499a43d645e40979e7d91ea9fcf7.html">categoria</a></td>
+            <td>str</td>
+            <td></td>
           </tr>
           
         </table>
@@ -245,7 +252,7 @@
     
     <tr>
         <td>name</td>
-        <td>mostrar_lista_contraindicaciones</td>
+        <td>flash</td>
     </tr>
     
     
@@ -297,23 +304,17 @@
     
     
     <tr>
-        <td>featureDirection</td>
-        <td>provided</td>
-    </tr>
-    
-    
-    
-    
-    
-    <tr>
         <td>parameters</td>
         <td>
             
             
-            <a href='b004ea093d464c2a6c0de30ceb32d1af.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>historia_id</a>
+            <a href='b004ea093d464c2a6c0de30ceb32d1af.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>mensaje</a>
             
             <span>, </span>
             <a href='c235e41778aef5270059a1fcf5e9723b.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>(Parameter)</a>
+            
+            <span>, </span>
+            <a href='2e12499a43d645e40979e7d91ea9fcf7.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>categoria</a>
             
         </td>
     </tr>

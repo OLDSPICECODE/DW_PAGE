@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>mostrarMsj</title>
+    <title>flash</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>mostrarMsj</h1>
+      <h1>flash</h1>
 
       <!-- Type and Stereotype -->
 
@@ -49,7 +49,7 @@
           <span class="label label-info"><a href='7b1112aed030c8ceef58129c85d956cc.html'><span class='node-icon staruml-icon icon-UMLClass'></span>«Boundary»CD-003 Registro de sesión</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='98ca45ec8b7811fe02fd651a474dd988.html'><span class='node-icon staruml-icon icon-UMLOperation'></span>mostrarMsj</a></span>
+          <span class="label label-info"><a href='98ca45ec8b7811fe02fd651a474dd988.html'><span class='node-icon staruml-icon icon-UMLOperation'></span>flash</a></span>
         
       </section>
 
@@ -64,7 +64,7 @@
         <h3>Description</h3>
         <div>
           
-            <p>Función que permite mostrar un mensaje para notificar al usuario que el llenado de datos del formulario no se ha realizado satisfactoriamente.</p>
+            <p>Función que guarda un mensaje y su categoría en la sesión para ser mostrado en la siguiente vista.</p>
           
         </div>
       </section>
@@ -146,14 +146,21 @@
           <tr>
             <td>in</td>
             <td><a href="1fa5c85a498936a7d079609617366a43.html">mensaje</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>return</td>
             <td><a href="62f84bedadaa8dfdae62df1f227c16b1.html">(unnamed)</a></td>
-            <td>string </td>
+            <td>string</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>in</td>
+            <td><a href="e5ecd201906803c010f683125c351d53.html">categoria</a></td>
+            <td>string</td>
             <td></td>
           </tr>
           
@@ -245,7 +252,7 @@
     
     <tr>
         <td>name</td>
-        <td>mostrarMsj</td>
+        <td>flash</td>
     </tr>
     
     
@@ -297,15 +304,6 @@
     
     
     <tr>
-        <td>featureDirection</td>
-        <td>provided</td>
-    </tr>
-    
-    
-    
-    
-    
-    <tr>
         <td>parameters</td>
         <td>
             
@@ -314,6 +312,9 @@
             
             <span>, </span>
             <a href='62f84bedadaa8dfdae62df1f227c16b1.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>(Parameter)</a>
+            
+            <span>, </span>
+            <a href='e5ecd201906803c010f683125c351d53.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>categoria</a>
             
         </td>
     </tr>

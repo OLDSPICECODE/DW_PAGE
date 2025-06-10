@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>ValidarDatos</title>
+    <title>validate_on_submit</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>ValidarDatos</h1>
+      <h1>validate_on_submit</h1>
 
       <!-- Type and Stereotype -->
 
@@ -49,7 +49,7 @@
           <span class="label label-info"><a href='5aaf227082efc6468984357509bc2231.html'><span class='node-icon staruml-icon icon-UMLClass'></span>«Boundary»CD-012 Actualización Datos de Paciente</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='ee17298bd7a3d52ba4b6b632ad322af1.html'><span class='node-icon staruml-icon icon-UMLOperation'></span>ValidarDatos</a></span>
+          <span class="label label-info"><a href='ee17298bd7a3d52ba4b6b632ad322af1.html'><span class='node-icon staruml-icon icon-UMLOperation'></span>validate_on_submit</a></span>
         
       </section>
 
@@ -146,98 +146,98 @@
           <tr>
             <td>in</td>
             <td><a href="fc2cb43d7362ce723a4a6a280d83c03d.html">nombres</a></td>
-            <td> </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
             <td><a href="e5ca648c2754e5c7b22a1aacdb45b2a7.html">apellidos</a></td>
-            <td> </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
-            <td><a href="773fef44f72ce160f8f0f69d523f6363.html">fecha _nacimiento</a></td>
-            <td> </td>
+            <td><a href="773fef44f72ce160f8f0f69d523f6363.html">fecha _de _nacimiento</a></td>
+            <td>date</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
-            <td><a href="b79a789049ad41b7b2b2ae3ac7bd6640.html">lugar_nacimiento</a></td>
-            <td> </td>
+            <td><a href="b79a789049ad41b7b2b2ae3ac7bd6640.html">lugar_de_nacimiento</a></td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
             <td><a href="b82eae213c74d52f6cddfe35303681f2.html">estado_civil</a></td>
-            <td> </td>
+            <td>enum</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
             <td><a href="b412b6c38b534f5bdefa29a3be5be599.html">direccion</a></td>
-            <td> </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
             <td><a href="145cb462c25e44caaf68a013f2b2a1bd.html">telefono</a></td>
-            <td> </td>
+            <td>PhoneNumberType</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
             <td><a href="77194dbb3b21c1d3b18c8ea2b79b4316.html">email</a></td>
-            <td> </td>
+            <td>EmailType</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
             <td><a href="c91390b0f63c7897a4cbb5693983138b.html">documento_identidad</a></td>
-            <td> </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
             <td><a href="7cc94a70f80f8b4cce7af143af2613dc.html">ocupacion</a></td>
-            <td> </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
             <td><a href="a0737f12488de50f3a5c496901ea4b98.html">lugar_trabajo_estudio</a></td>
-            <td> </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
             <td><a href="58a5a902e1d97f1ce77a785877ba9afe.html">apoderado</a></td>
-            <td> </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
             <td><a href="f7499e6258f51c5328b563b0805652f0.html">antecedentes_medicos</a></td>
-            <td> </td>
+            <td>list</td>
             <td></td>
           </tr>
           
           <tr>
             <td>return</td>
             <td><a href="e44b184246e13f0b2df959797545a155.html">(unnamed)</a></td>
-            <td>bool </td>
+            <td>bool</td>
             <td></td>
           </tr>
           
@@ -329,7 +329,7 @@
     
     <tr>
         <td>name</td>
-        <td>ValidarDatos</td>
+        <td>validate_on_submit</td>
     </tr>
     
     
@@ -381,15 +381,6 @@
     
     
     <tr>
-        <td>featureDirection</td>
-        <td>provided</td>
-    </tr>
-    
-    
-    
-    
-    
-    <tr>
         <td>parameters</td>
         <td>
             
@@ -400,10 +391,10 @@
             <a href='e5ca648c2754e5c7b22a1aacdb45b2a7.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>apellidos</a>
             
             <span>, </span>
-            <a href='773fef44f72ce160f8f0f69d523f6363.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>fecha _nacimiento</a>
+            <a href='773fef44f72ce160f8f0f69d523f6363.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>fecha _de _nacimiento</a>
             
             <span>, </span>
-            <a href='b79a789049ad41b7b2b2ae3ac7bd6640.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>lugar_nacimiento</a>
+            <a href='b79a789049ad41b7b2b2ae3ac7bd6640.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>lugar_de_nacimiento</a>
             
             <span>, </span>
             <a href='b82eae213c74d52f6cddfe35303681f2.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>estado_civil</a>

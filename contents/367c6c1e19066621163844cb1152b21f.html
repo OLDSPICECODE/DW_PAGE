@@ -149,14 +149,42 @@
           <tr>
             <td>public</td>
             <td><a href="628b906f0d30a6a0265b00663edf8f22.html">profesional</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
             <td><a href="1042ec5ec76b4cc4403e8cece026f59d.html">fecha</a></td>
-            <td>date </td>
+            <td>date</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="ac98f4fed44bf8fd7e980d317ca3b197.html">paciente_id</a></td>
+            <td>int</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="c756138a4de1471d6fc7685fa8b4fc91.html">fecha</a></td>
+            <td>date</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="39d2d00878b4c4914c0eda2facb0b1fc.html">descripcion</a></td>
+            <td>string</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="ebf7c0adcffec785b372da3ed752615d.html">odontologo_id</a></td>
+            <td>string</td>
             <td></td>
           </tr>
           
@@ -178,31 +206,31 @@
           
           <tr>
             <td>public</td>
-            <td><a href="e6770c0a6a574a2bd27cb5e7a2d24c04.html">MostrarListaTratamientos(DNI: string): list</a></td>
+            <td><a href="e6770c0a6a574a2bd27cb5e7a2d24c04.html">MostrarListaTratamientos(paciente_id: int): list</a></td>
             <td><p>Función que devuelve una lista general de tratamientos asociados al paciente identificado por su DNI, consultando con Entity Tratamiento.</p></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="08550704457823d59de81cc8ed743a91.html">MostrarDatosTratamiento(DNI: string): list</a></td>
+            <td><a href="08550704457823d59de81cc8ed743a91.html">MostrarDatosTratamiento(paciente_id: int): list</a></td>
             <td><p>Función que devuelve información detallada de un tratamiento en específico asociado al paciente identificado por su DNI, consultando con Entity Tratamiento.</p></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="6e875a4ce6f58cc9a5d7779b5d219758.html">ActualizarDatos(profesional: string, fecha: date, descripcion: string): void</a></td>
+            <td><a href="6e875a4ce6f58cc9a5d7779b5d219758.html">ActualizarDatos(odontologo_id: string, fecha: date, descripcion: string): void</a></td>
             <td><p>Función que actualiza una sesión dentro de un tratamiento existente modificando los campos como el profesional que lo realiza, la fecha, y una descripción del mismo, pasando los datos ingresados a Entity Sesion.</p></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="9ec597d30c1d0439fe0c3878eb2c534f.html">ActualizarDatos(estado: bool, fecha: date, tratamiento: string, profesional: string, observaciones: string): void</a></td>
+            <td><a href="9ec597d30c1d0439fe0c3878eb2c534f.html">ActualizarDatos(estado: bool, fecha: date, tratamiento: string, odontologo_id: string, observaciones: string): void</a></td>
             <td><p>Función que actualiza un tratamiento existente modificando los campos como el estado actual del tratamiento (Activo, Finalizado), la fecha, descripción del tratamiento realizado, el profesional que lo realiza, y observaciones del tratamiento hechas por el profesional, pasando los datos ingresados a Entity Tratamiento.</p></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="3467376b145ccffd4dfc7dcf89498446.html">InsertarDatos(estado: bool, fecha: date, tratamiento: string, profesional: string, observaciones: string): void</a></td>
+            <td><a href="3467376b145ccffd4dfc7dcf89498446.html">InsertarDatos(estado: bool, fecha: date, tratamiento: string, odontologo_id: string, observaciones: string): void</a></td>
             <td><p>Función que crea un nuevo tratamiento, recopilando información como el estado del tratamiento, fecha en que se realizó, qué tratamiento se realizó, el profesional que lo realizó y observaciones hechas por el profesional, pasando los datos ingresados a Entity Tratamiento.</p></td>
           </tr>
           

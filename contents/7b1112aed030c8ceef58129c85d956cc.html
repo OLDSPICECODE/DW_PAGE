@@ -148,36 +148,50 @@
           
           <tr>
             <td>private</td>
-            <td><a href="d3a7787b95833b9b3d7745f98f5cf57c.html">profesional</a></td>
-            <td>string </td>
+            <td><a href="d3a7787b95833b9b3d7745f98f5cf57c.html">odontologo_id</a></td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
             <td><a href="000ce46683399a854743577a9e084aed.html">fecha</a></td>
-            <td>date </td>
+            <td>date</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="b362a83314986bbb6893dd3ebc3e14fd.html">descripcion</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
             <td><a href="5c77c9eb7f5e35ae9435b8c37c8ad013.html">validar</a></td>
-            <td>bool </td>
+            <td>bool</td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
             <td><a href="788d2bcc882172f8408a58c99554eaf7.html">mensaje</a></td>
-            <td>string </td>
+            <td>string</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="4fbd17d74d034a7f2b782d2452f7635a.html">mensaje</a></td>
+            <td>string</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="59d4c034b784bbbd20a21ce04f64aea0.html">paciente_id</a></td>
+            <td>int</td>
             <td></td>
           </tr>
           
@@ -199,25 +213,25 @@
           
           <tr>
             <td>public</td>
-            <td><a href="577f2121abf3aecf9e9fd9dce8cf1746.html">LlenarFormulario(profesional, fecha, descripcion): void</a></td>
+            <td><a href="577f2121abf3aecf9e9fd9dce8cf1746.html">CrearSesion(profesional, fecha, descripcion): void</a></td>
             <td><p>Función que permite llenar el formulario de registro de sesión. Se encuentran los campos: profesional, fecha, descripción.</p></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="028b371280b03bd7cd4809ee0843abc4.html">ValidarDatos(profesional, fecha, descripcion): void</a></td>
-            <td><p>Función que permite  validar el ingreso de los datos del formulario para la el registro de sesión. Se encarga de verificar que los campos hayan sido llenados con los datos correctos.</p></td>
+            <td><a href="028b371280b03bd7cd4809ee0843abc4.html">validate_on_submit(odontologo_id, fecha, descripcion): void</a></td>
+            <td><p>Función que permite  validar el ingreso de los datos del formulario para el registro de sesión. Se encarga de verificar que los campos hayan sido llenados con los datos correctos.</p></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="98ca45ec8b7811fe02fd651a474dd988.html">mostrarMsj(mensaje: string): string</a></td>
-            <td><p>Función que permite mostrar un mensaje para notificar al usuario que el llenado de datos del formulario no se ha realizado satisfactoriamente.</p></td>
+            <td><a href="98ca45ec8b7811fe02fd651a474dd988.html">flash(mensaje: string, categoria: string): string</a></td>
+            <td><p>Función que guarda un mensaje y su categoría en la sesión para ser mostrado en la siguiente vista.</p></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="7439100d97f7f06ce72524cc4971a48e.html">ActualizarDatos(profesional, fecha, descripcion): void</a></td>
+            <td><a href="7439100d97f7f06ce72524cc4971a48e.html">populate_obj(odontologo_id, fecha, descripcion): void</a></td>
             <td><p>Función que envía los datos llenados satisfactoriamente por el usuario al controlador correspondiente.</p></td>
           </tr>
           

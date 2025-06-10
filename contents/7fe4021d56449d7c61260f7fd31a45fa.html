@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>ValidarDatos</title>
+    <title>validate_on_submit</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>ValidarDatos</h1>
+      <h1>validate_on_submit</h1>
 
       <!-- Type and Stereotype -->
 
@@ -49,7 +49,7 @@
           <span class="label label-info"><a href='81e8343b1154abbca89e4e3fe9cfe69d.html'><span class='node-icon staruml-icon icon-UMLClass'></span>«Boundary»CD-009 Creación de paciente</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='7fe4021d56449d7c61260f7fd31a45fa.html'><span class='node-icon staruml-icon icon-UMLOperation'></span>ValidarDatos</a></span>
+          <span class="label label-info"><a href='7fe4021d56449d7c61260f7fd31a45fa.html'><span class='node-icon staruml-icon icon-UMLOperation'></span>validate_on_submit</a></span>
         
       </section>
 
@@ -146,91 +146,91 @@
           <tr>
             <td>in</td>
             <td><a href="c2ee088de4e7aa9bc311ea01111dfae1.html">nombres</a></td>
-            <td> </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
             <td><a href="c72a7990c4765633328ffe9f9c48f504.html">apellidos</a></td>
-            <td> </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
             <td><a href="c4264c2b2a531956f4cfb4d7aa67755f.html">fecha _de _nacimiento</a></td>
-            <td> </td>
+            <td>date</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
             <td><a href="9949cc42d462dec84a06ae423a6b1f5e.html">lugar_de_nacimiento</a></td>
-            <td> </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
             <td><a href="6425911a2ada820dd66bd263b3a0d215.html">estado_civil</a></td>
-            <td> </td>
+            <td>enum</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
             <td><a href="464878f0b61a25701e1d5d0b778cc1c4.html">direccion</a></td>
-            <td> </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
             <td><a href="3ac682978baa80dcbe64a44833da105d.html">telefono</a></td>
-            <td> </td>
+            <td>PhoneNumberType</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
             <td><a href="4c0eba1ef672853bfd96af2b1983d83d.html">email</a></td>
-            <td> </td>
+            <td>EmailType</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
-            <td><a href="a3cab2a8e443640b78fad76a78ca1aa7.html">DNI</a></td>
-            <td> </td>
+            <td><a href="a3cab2a8e443640b78fad76a78ca1aa7.html">documento_identidad</a></td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
             <td><a href="79d9b01c61b49797fa21044d2a864ae5.html">ocupacion</a></td>
-            <td> </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
             <td><a href="92697db935fa90119f8c50ed21490feb.html">lugar_trabajo_estudio</a></td>
-            <td> </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>in</td>
             <td><a href="bfb5138fe7ead0162b399e5f3e63cb36.html">apoderado</a></td>
-            <td> </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>return</td>
             <td><a href="28290deee0c547ff2f6c9d533fa1f46b.html">(unnamed)</a></td>
-            <td>bool </td>
+            <td>bool</td>
             <td></td>
           </tr>
           
@@ -322,7 +322,7 @@
     
     <tr>
         <td>name</td>
-        <td>ValidarDatos</td>
+        <td>validate_on_submit</td>
     </tr>
     
     
@@ -374,15 +374,6 @@
     
     
     <tr>
-        <td>featureDirection</td>
-        <td>provided</td>
-    </tr>
-    
-    
-    
-    
-    
-    <tr>
         <td>parameters</td>
         <td>
             
@@ -411,7 +402,7 @@
             <a href='4c0eba1ef672853bfd96af2b1983d83d.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>email</a>
             
             <span>, </span>
-            <a href='a3cab2a8e443640b78fad76a78ca1aa7.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>DNI</a>
+            <a href='a3cab2a8e443640b78fad76a78ca1aa7.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>documento_identidad</a>
             
             <span>, </span>
             <a href='79d9b01c61b49797fa21044d2a864ae5.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>ocupacion</a>

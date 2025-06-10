@@ -149,42 +149,84 @@
           <tr>
             <td>public</td>
             <td><a href="3a97cac59f1a2c157637a1f3fa1cfd96.html">boton</a></td>
-            <td>string </td>
-            <td></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="9f1f7552f2b910ac33c97c6b7e0ce7cb.html">estado</a></td>
-            <td>bool </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
             <td><a href="4c22f38ea3a8b8436203831e11ab553a.html">fecha</a></td>
-            <td>date </td>
+            <td>date</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="5d911d48dd00d2c38e2b1afb3b095b33.html">tratamiento</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
-            <td><a href="16c05bf567e689143c939dfaa11b7256.html">profesional</a></td>
-            <td>string </td>
+            <td><a href="16c05bf567e689143c939dfaa11b7256.html">en_curso</a></td>
+            <td>bool</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="de69275b6096a2a3df5fd27353c61740.html">observaciones</a></td>
-            <td>string </td>
+            <td>string</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="9ebabee1ee0db23205134affe33c3a9c.html">tratamiento_id</a></td>
+            <td>int</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="0782f27237ca41c4b326ba1e7be3daf3.html">odontologo_id</a></td>
+            <td>string</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="182d275a1aad2caa0e99a8127664727e.html">historia_id</a></td>
+            <td>int</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="47cbadc3df3363221a9952621b923c3c.html">pagos</a></td>
+            <td>list</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="75a89316a1e2b36df58624ede3646c3d.html">procedimientos</a></td>
+            <td>list</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="a7d1f1d6ecfbb461c5fd7b9b57e1c359.html">sesiones</a></td>
+            <td>list</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="b689027f91fcfd9e3cd4f879807fedc2.html">materiales</a></td>
+            <td>list</td>
             <td></td>
           </tr>
           
@@ -206,14 +248,62 @@
           
           <tr>
             <td>public</td>
-            <td><a href="e1419345d68aa1c7515ddd359aae601c.html">ClickBoton(boton: string): void</a></td>
+            <td><a href="e1419345d68aa1c7515ddd359aae601c.html">mostrar_tratamiento(tratamiento_id: int): Tratamiento</a></td>
             <td><p>Función que permite realizar el evento click en el botón.</p></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="49bf5a34f6ddf2896610cc1855b58ea1.html">LlenarFormulario(estado, fecha, tratamiento, profesional, observaciones): void</a></td>
+            <td><a href="49bf5a34f6ddf2896610cc1855b58ea1.html">render_template(ruta_archivo: string, contexto: dict): string</a></td>
             <td><p>Función que permite llenar el formulario de tratamiento. Se encuentran los campos: estado, fecha, tratamiento, profesional, observaciones.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="5b704ab5655186f53e75dd6cbe444fcd.html">flash(mensaje: string, categoria: str): void</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="0508da3e5a0343b136096e8c81dcd27b.html">redirect(url: string): string</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="c71578ebe01b438c8fde9a1533bc1fc8.html">calcular_total_pago(): float</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="1df8e83bac34b373fd6ecb9814a3d1f1.html">estado(): bool</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="bb235ac111874ed15045071711f0b6f0.html">listar_sesiones(): list</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="6ea7d18b46eac5d6b36a4cc094b57aac.html">agregar_procedimiento(procedimiento_id: int, cantidad: int, costo: int): bool</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="67480785352d9117e15c806c07319e2a.html">agregar_material(material_id: int, cantidad: int, costo: int): bool</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="088381bf9f46d7f08f6b3fe13853aaa6.html">agregar_sesion(fecha: date, descripcion: str, observaciones: str, odontologo_id: str): bool</a></td>
+            <td></td>
           </tr>
           
         </table>

@@ -149,14 +149,21 @@
           <tr>
             <td>public</td>
             <td><a href="84f6ba2d7d759cfc655c64390a447e31.html">boton</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="c7d327f99e3ff9adc421fdc501fa6a38.html">archivo</a></td>
-            <td>string </td>
+            <td><a href="c7d327f99e3ff9adc421fdc501fa6a38.html">historia_id</a></td>
+            <td>int</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="8751d0c3048b54658202840d7dd360f9.html">examen_id_int</a></td>
+            <td><span class='label label-info'>none</span></td>
             <td></td>
           </tr>
           
@@ -178,8 +185,8 @@
           
           <tr>
             <td>public</td>
-            <td><a href="180cfbdf5b3a6deeb1ba8223204c8a43.html">ClickBoton(boton: string): None</a></td>
-            <td><p>Función que permite realizar el evento click en el botón.</p></td>
+            <td><a href="180cfbdf5b3a6deeb1ba8223204c8a43.html">subir_examen(historia_id: int): string</a></td>
+            <td><p>Función que permite mostrar formulario para subir exámenes auxiliares y procesa la subida del archivo.</p></td>
           </tr>
           
           <tr>
@@ -192,6 +199,48 @@
             <td>public</td>
             <td><a href="c1b711921cc846d17aae870cbaac9760.html">mostrar_examenes(historia_id: int): list</a></td>
             <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="c1ab65f2fb7937e1d9d4572a1084c1cd.html">descargar_examen(historia_id: int, examen_id: int): File</a></td>
+            <td><p>Función que devuelve el archivo correspondiente a un examen auxiliar si existe.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="03128f567eebac77f44c063fa1f3fbe7.html">render_template(ruta: string, form: HistoriaExamenForm, historia: Historia, paciente: Paciente, examenes: list): string</a></td>
+            <td><p>Función que muestra la interfaz con el formulario y lista de exámenes ya subidos.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="22a099f5a582b7e602ad536ab10acfef.html">flash(mensaje: string, categoria: string): void</a></td>
+            <td><p>Función que guarda un mensaje y su categoría en la sesión para ser mostrado en la siguiente vista.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="d2ebf8c7ae944b497721d5a9cdd9bc6f.html">redirect(url: string): string</a></td>
+            <td><p>Función que redirige al usuario a otra URL.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="1010eca599e690ed82c56604c7b01b56.html">ver_examen(historia_id: int, examen_id: int): File</a></td>
+            <td><p>Función que permite al usuario visualizar directamente en el navegador un examen auxiliar asociado a una historia clínica específica.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="cc676ac7fade635ace6f0c642b665d0a.html">borrar_examen(historia_id: int, examen_id: int): Response</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="d57547f7c1bd60611c087e124de0bf46.html">actualizar_observacion(historia_id: int, examen_id: int): Response</a></td>
+            <td><p>Función que actualiza el campo de observaciones de un examen auxiliar específico .</p></td>
           </tr>
           
         </table>
@@ -403,7 +452,7 @@
         
         <li><a href='fb269f69cd4393c8d55630d79397be6c.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Redirige (CD-014 Ventana exámenes auxiliares—CD-013 Ficha de paciente)</a></li>
         
-        <li><a href='02439adfba1b902a25a4ad5b896e11de.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-019 Paciente—CD-014 Ventana exámenes auxiliares)</a></li>
+        <li><a href='02439adfba1b902a25a4ad5b896e11de.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-019 HistoriaPaciente—CD-014 Ventana exámenes auxiliares)</a></li>
         
     </ul>
 </section>

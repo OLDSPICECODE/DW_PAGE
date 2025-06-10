@@ -147,100 +147,93 @@
           </tr>
           
           <tr>
-            <td>public</td>
-            <td><a href="d78b53282961539c5a94a3d66772fc82.html">existe</a></td>
-            <td>bool </td>
-            <td></td>
-          </tr>
-          
-          <tr>
             <td>private</td>
             <td><a href="8e5b689a55ffa7aba993dea1a092c88a.html">nombres</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="4e375e865028fe44c957f5a3532e859f.html">apellidos</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="74824202b6a479586bf6d543f142fbe9.html">fecha_de_nacimiento</a></td>
-            <td>date </td>
+            <td>date</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="0bd671608a5778da4e61a7e34f8697bf.html">lugar_de_nacimiento</a></td>
-            <td><span class='label label-info'>none</span> </td>
+            <td><span class='label label-info'>none</span></td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="9cef7b229511f14c6e5ef252c8a18241.html">estado_civil</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="e5f3c6cbefaa286b46cc61f128a50140.html">direccion</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="647562a26488d18606b60f7feb378190.html">telefono</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="a488eb267c143e3d1a12a2017fdf3337.html">email</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="184596ceded5f00fc7e821684dca0126.html">documento_identidad</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="fc21a2e9c6284329c7897ceec1c27693.html">ocupacion</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="3e3e696b92e1e6fe5145048b2cd4041b.html">lugar_trabajo_estudio</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="be5ac84889d766ab3e7358e49d46344b.html">apoderado</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
             <td><a href="90f1355621df635a4fc1d3048f22ebce.html">validar</a></td>
-            <td>bool </td>
+            <td>bool</td>
             <td></td>
           </tr>
           
@@ -262,26 +255,32 @@
           
           <tr>
             <td>public</td>
-            <td><a href="2b2ea3c6eceaa0d36dc179283c4f8abe.html">LlenarFormulario(nombres, apellidos, fecha _de _nacimiento, lugar_de_nacimiento, estado_civil, direccion, telefono, email, DNI, ocupacion, lugar_trabajo_estudio, apoderado): string</a></td>
-            <td><p>Función que permite llenar el formulario de creación de paciente. Se encuentran los campos:  nombres, apellidos, fecha <em>de </em>nacimiento, lugar<em>de</em>nacimiento, estado<em>civil, direccion, telefono, email, DNI, ocupacion, lugar</em>trabajo_estudio, apoderado).</p></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
             <td><a href="3e34225cca3781a6cb4bb09a5317ff49.html">RegistrarPaciente(): string</a></td>
-            <td><p>Función que envía los datos del formulario al controlador correspondiente.</p></td>
+            <td><p>Función que envía los datos del formulario al controlador correspondiente. para el registro del paciente.</p></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="7fe4021d56449d7c61260f7fd31a45fa.html">ValidarDatos(nombres, apellidos, fecha _de _nacimiento, lugar_de_nacimiento, estado_civil, direccion, telefono, email, DNI, ocupacion, lugar_trabajo_estudio, apoderado): bool</a></td>
+            <td><a href="7fe4021d56449d7c61260f7fd31a45fa.html">validate_on_submit(nombres: string, apellidos: string, fecha _de _nacimiento: date, lugar_de_nacimiento: string, estado_civil: enum, direccion: string, telefono: PhoneNumberType, email: EmailType, documento_identidad: string, ocupacion: string, lugar_trabajo_estudio: string, apoderado: string): bool</a></td>
             <td><p>Función que permite  validar el ingreso de los datos del formulario para la creación de paciente. Se encarga de verificar que los campos hayan sido llenados con los datos correctos.</p></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="05603fd8963e12e49787e80552609ca6.html">Mostrar(mensaje: string): string</a></td>
-            <td><p>Función que permite mostrar un mensaje para notificar al usuario que el llenado de datos del formulario no se ha realizado satisfactoriamente.</p></td>
+            <td><a href="05603fd8963e12e49787e80552609ca6.html">flash(mensaje: string, categoria: str): void</a></td>
+            <td><p>Función que guarda un mensaje y su categoría en la sesión para ser mostrado en la siguiente vista.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="3cca7da17be6ead7665d8907e17b0a9e.html">render_template(ruta_archivo: string, form: PacienteForm): string</a></td>
+            <td><p>Función que devuelve una página HTML ya completada con los datos del formulario para mostrarla al usuario.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="d08659ccdd770d4c007009f85fe927e5.html">redirect(url: str): string</a></td>
+            <td><p>Función que redirige al usuario a otra URL.</p></td>
           </tr>
           
         </table>

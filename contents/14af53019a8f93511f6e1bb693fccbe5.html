@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>LlenarFormulario</title>
+    <title>validate_on_submit</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>LlenarFormulario</h1>
+      <h1>validate_on_submit</h1>
 
       <!-- Type and Stereotype -->
 
@@ -49,7 +49,7 @@
           <span class="label label-info"><a href='74823b85f8cd3b6208b4437542947894.html'><span class='node-icon staruml-icon icon-UMLClass'></span>«Boundary»CD-006 Ventana Contraindicaciones Médicas</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='14af53019a8f93511f6e1bb693fccbe5.html'><span class='node-icon staruml-icon icon-UMLOperation'></span>LlenarFormulario</a></span>
+          <span class="label label-info"><a href='14af53019a8f93511f6e1bb693fccbe5.html'><span class='node-icon staruml-icon icon-UMLOperation'></span>validate_on_submit</a></span>
         
       </section>
 
@@ -64,7 +64,7 @@
         <h3>Description</h3>
         <div>
           
-            <p>Función que permite llenar el formulario de contraindicaciones médicas. Se encuentran los campos: contraindicación, importante.</p>
+            <p>Función que permite  validar el ingreso de las contraindicaciones médicas del paciente. Se encarga de verificar que los campos hayan sido llenados correctamente.</p>
           
         </div>
       </section>
@@ -144,23 +144,9 @@
           </tr>
           
           <tr>
-            <td>in</td>
-            <td><a href="a8bfdbe728e37ccb0c7e1f5487d6aeb2.html">contraindicacion</a></td>
-            <td> </td>
-            <td></td>
-          </tr>
-          
-          <tr>
-            <td>in</td>
-            <td><a href="9d58797afd501c32bead383353d4cd34.html">importante</a></td>
-            <td> </td>
-            <td></td>
-          </tr>
-          
-          <tr>
             <td>return</td>
             <td><a href="78bc20cd051d59ed36da963e9eb73fe4.html">(unnamed)</a></td>
-            <td>None </td>
+            <td>bool</td>
             <td></td>
           </tr>
           
@@ -252,7 +238,7 @@
     
     <tr>
         <td>name</td>
-        <td>LlenarFormulario</td>
+        <td>validate_on_submit</td>
     </tr>
     
     
@@ -304,25 +290,10 @@
     
     
     <tr>
-        <td>featureDirection</td>
-        <td>provided</td>
-    </tr>
-    
-    
-    
-    
-    
-    <tr>
         <td>parameters</td>
         <td>
             
             
-            <a href='a8bfdbe728e37ccb0c7e1f5487d6aeb2.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>contraindicacion</a>
-            
-            <span>, </span>
-            <a href='9d58797afd501c32bead383353d4cd34.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>importante</a>
-            
-            <span>, </span>
             <a href='78bc20cd051d59ed36da963e9eb73fe4.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>(Parameter)</a>
             
         </td>

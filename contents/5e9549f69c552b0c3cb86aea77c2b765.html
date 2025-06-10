@@ -149,112 +149,112 @@
           <tr>
             <td>private</td>
             <td><a href="cfddcf373472472f979bdffc2b6cd535.html">paciente_id</a></td>
-            <td>int </td>
+            <td>int</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="7edd8b0da4124108c684fe1d11d463e3.html">nombres</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="6b9b63907ba057d1412daf3b9e31bc18.html">apellidos</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="73e4ffb8f7ff654883982ecc61d275ff.html">fecha_nacimiento</a></td>
-            <td>date </td>
+            <td>date</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="46cea2cc2dd4e1652eb9bd81276cc790.html">lugar_nacimiento</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="e1d3e4059f2298a95c4cc369cbfbda81.html">estado_civil</a></td>
-            <td>enum </td>
+            <td>enum</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="d8a77ebc63ce13d16b4f16b2adf36246.html">direccion</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="3eec03568e8514439f3577229a8a4c72.html">telefono</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="ae286bda898a4457742c03bd775e25be.html">email</a></td>
-            <td>emailType </td>
+            <td>emailType</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="5e35bfe86913fd9c61f7d30cd4428aea.html">documento_identidad</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="885fec11ed6e0e3e268ccb06e239a0d6.html">ocupacion</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="92af20b697c23ff1f1ac2851a38a443e.html">lugar_trabajo_estudio</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="736f4c5f89971586a3d70c2af6ce1a2c.html">apoderado</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
             <td><a href="ae839df762d3f65bbe26029b203e37fd.html">coincidencias</a></td>
-            <td>bool </td>
+            <td>bool</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="64b0372e922b9f252189adb54a6baa9b.html">antecedentes_medicos</a></td>
-            <td>list </td>
+            <td>list</td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
             <td><a href="8fac9b3fdf16049d0e5f015e03979972.html">novedades</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
@@ -276,7 +276,7 @@
           
           <tr>
             <td>public</td>
-            <td><a href="9041413846a2f12fc7cc62e6dfb4d4ca.html">existePaciente(DNI): bool</a></td>
+            <td><a href="9041413846a2f12fc7cc62e6dfb4d4ca.html">existePaciente(documento_identidad): bool</a></td>
             <td><p>Función que verifica dentro de la tabla Paciente de la base de datos si un paciente existe.</p></td>
           </tr>
           
@@ -306,7 +306,7 @@
           
           <tr>
             <td>public</td>
-            <td><a href="1680c690f74fd3f51e915c368db55ee1.html">ActualizarDatos(nombres, apellidos, fecha _de _nacimiento, lugar_de_nacimiento, estado_civil, direccion, telefono, email, DNI, ocupacion, lugar_trabajo_estudio, apoderado, antecedentes_medicos): string</a></td>
+            <td><a href="1680c690f74fd3f51e915c368db55ee1.html">ActualizarDatos(nombres, apellidos, fecha _nacimiento, lugar_nacimiento, estado_civil, direccion, telefono, email, documento_identidad, ocupacion, lugar_trabajo_estudio, apoderado, antecedentes_medicos): string</a></td>
             <td><p>Función que actualiza los datos personales del paciente, junto con sus antedecedentes médicos en la tabla Paciente de la base de datos.</p></td>
           </tr>
           
@@ -529,7 +529,7 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='53cca5c3a4c429c495ea881968e62296.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-019 Paciente—CD-028 Paciente)</a></li>
+        <li><a href='53cca5c3a4c429c495ea881968e62296.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-019 HistoriaPaciente—CD-028 Paciente)</a></li>
         
     </ul>
 </section>

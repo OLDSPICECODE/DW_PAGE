@@ -149,7 +149,14 @@
           <tr>
             <td>public</td>
             <td><a href="6287397582f2f7465d70e73fe27797c4.html">boton</a></td>
-            <td>string </td>
+            <td>string</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="799595d181bfa44aee8215b1088c87c5.html">paciente_id</a></td>
+            <td>int</td>
             <td></td>
           </tr>
           
@@ -171,14 +178,38 @@
           
           <tr>
             <td>public</td>
-            <td><a href="de04d74d3589b01ca23ebf916cad6d35.html">ClickBoton(boton: string): POST</a></td>
-            <td><p>Función que permite realizar el evento click en el botón.</p></td>
+            <td><a href="48198f5903d034200e422fe674eb9d9f.html">examenes_estomatologicos(paciente_id: int): string</a></td>
+            <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="4623007ccd9c37686f63994af4a05099.html">mostrar_formulario_estomatologicos(): list</a></td>
-            <td><p>Función que permite marcar qué exámenes estomatológicos presenta el paciente.</p></td>
+            <td><a href="6cb1f0809ed33787065f0ee2976a6523.html">flash(mensaje: string, categoria: string): void</a></td>
+            <td><p>Función que guarda un mensaje y su categoría en la sesión para ser mostrado en la siguiente vista.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="14e3695bee8047e538797320ba5cfd9d.html">redirect(url: string): string</a></td>
+            <td><p>Función que redirige al usuario a otra URL.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="4cfa0e282ab6b53c9a72a8eeb7bcb64a.html">render_template(ruta_archivo: string, form_examen: ExamenesEstomatologicosForm, historia: Historia, paciente: Paciente): string</a></td>
+            <td><p>Función que genera la vista HTML para el formulario de exámenes estomatológicos del paciente.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="8478659338c62878f243a902e99fb3f8.html">validate_on_submit(): bool</a></td>
+            <td><p>Función que permite  validar el ingreso de los exámenes estomatológicos del paciente. Se encarga de verificar que los campos hayan sido llenados correctamente.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="cdcde38673af28015db4f3eb74e0e215.html">populate_obj(objeto: Any): void</a></td>
+            <td><p>Función que actualiza el objeto del modelo con los datos del formulario.</p></td>
           </tr>
           
         </table>
@@ -390,7 +421,7 @@
         
         <li><a href='6bac98ccae564bc550d1b72ac4b9e44a.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Redirige (CD-013 Ficha de paciente—CD-015 Ventana exámenes estomatológicos)</a></li>
         
-        <li><a href='0cd0632373c25b232ab0677213ba3672.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-019 Paciente—CD-015 Ventana exámenes estomatológicos)</a></li>
+        <li><a href='0cd0632373c25b232ab0677213ba3672.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-019 HistoriaPaciente—CD-015 Ventana exámenes estomatológicos)</a></li>
         
     </ul>
 </section>

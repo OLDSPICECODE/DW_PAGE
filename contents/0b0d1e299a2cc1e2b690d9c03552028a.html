@@ -148,50 +148,50 @@
           
           <tr>
             <td>public</td>
-            <td><a href="7858f7dd07615eaf7f090f0dd75207a6.html">estado</a></td>
-            <td>bool </td>
+            <td><a href="7858f7dd07615eaf7f090f0dd75207a6.html">en_curso</a></td>
+            <td>bool</td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
             <td><a href="4c0b95e9d0d38b248cd4c6565aaefe6b.html">fecha</a></td>
-            <td>date </td>
+            <td>date</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="24a51798e82a9be3d6965abfe5153d42.html">tratamiento</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
-            <td><a href="2b68dc07eeb43e2b2ff68dd0fccb83b4.html">profesional</a></td>
-            <td>string </td>
+            <td><a href="2b68dc07eeb43e2b2ff68dd0fccb83b4.html">odontologo_id</a></td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
             <td><a href="85343914938463a901a9eaf3d032b579.html">observaciones</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="6640d1bb22fb944f3e04f912e20e2699.html">validar</a></td>
-            <td>bool </td>
+            <td><a href="6640d1bb22fb944f3e04f912e20e2699.html">mensaje</a></td>
+            <td>string</td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
             <td><a href="c83631edd28fdaa3691c041a5372829a.html">mensaje</a></td>
-            <td>string </td>
+            <td>string</td>
             <td></td>
           </tr>
           
@@ -213,20 +213,32 @@
           
           <tr>
             <td>public</td>
-            <td><a href="33fb0b69197f07c6ab1d84232255c64d.html">LlenarFormulario(estado, fecha, tratamiento, profesional, observaciones): void</a></td>
+            <td><a href="33fb0b69197f07c6ab1d84232255c64d.html">RegistrarTratamiento(estado, fecha, tratamiento, profesional, observaciones): void</a></td>
             <td><p>Función que permite llenar el formulario de creación de tratamiento. Se encuentran los campos: estado, fecha, tratamiento, profesional, observaciones.</p></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="60e46580e4515d81c7276630a9937f44.html">ValidarDatos(estado, fecha, tratamiento, profesional, observaciones): void</a></td>
+            <td><a href="60e46580e4515d81c7276630a9937f44.html">validate_on_submit(fecha_creacion, descripcion, en_curso, odontologo_id, historia_id): bool</a></td>
             <td><p>Función que permite  validar el ingreso de los datos del formulario para la creación de tratamiento. Se encarga de verificar que los campos hayan sido llenados con los datos correctos.</p></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="16fd8cb85d55f2f581254f9fe04e0f81.html">mostrarMsj(mensaje: string): string</a></td>
+            <td><a href="16fd8cb85d55f2f581254f9fe04e0f81.html">flash(mensaje: string, categoria: str): void</a></td>
             <td><p>Función que permite mostrar un mensaje para notificar al usuario que el llenado de datos del formulario no se ha realizado satisfactoriamente.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="81ce04c548e70264f037bdd1a03836d6.html">render_template(ruta_archivo: string, form: TratamientoForm): string</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="34520fd4fbe0fca84d0c87d52e72d33d.html">redirect(url: str): string</a></td>
+            <td><p>Función que redirige al usuario a otra URL.</p></td>
           </tr>
           
         </table>
