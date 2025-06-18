@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Ventana Contraindicaciones Médicas</title>
+    <title>render_template</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,17 +18,15 @@
 
       <!-- Name Title -->
 
-      <h1>Ventana Contraindicaciones Médicas</h1>
+      <h1>render_template</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-UMLLifeline"></span>
-          UMLLifeline
+          <span class="node-icon staruml-icon icon-UMLMessage"></span>
+          UMLMessage
         </span>
-        
-          <span style="margin-left: 10px" class="alert alert-info">«Boundary»</span>
         
       </section>
 
@@ -51,7 +49,7 @@
           <span class="label label-info"><a href='55f08ec6a928301fb705a53a24b5cb97.html'><span class='node-icon staruml-icon icon-UMLInteraction'></span>SQ-003 Gestionar Paciente</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='eb6c6cdae977e34f73f6ab8ec30d7fd1.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>«Boundary»Ventana Contraindicaciones Médicas</a></span>
+          <span class="label label-info"><a href='bce17a36d99a0e9f9698b045a4d7f96f.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>render_template (Paciente→Actualización Datos de Paciente)</a></span>
         
       </section>
 
@@ -78,6 +76,25 @@
 
       <!-- Directed Relationship -->
 
+      
+      <section class="element-list">
+        <table width="100%">
+          <tr>
+            <td width="50%">
+              <h3>Source</h3>
+              <ul class="nav nav-list">
+                <li><a href='d9481d6d28d390ac939b33396a6650f3.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>«Control»Paciente</a></a></li>
+              </ul>
+            </td>
+            <td width="50%">
+              <h3>Target</h3>
+              <ul class="nav nav-list">
+                <li><a href='5a9127f8c8e7834809f08243e3ce9679.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>«Boundary»Actualización Datos de Paciente</a></a></li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </section>
       
 
       <!-- Undirected Relationship -->
@@ -220,7 +237,7 @@
     
     <tr>
         <td>name</td>
-        <td>Ventana Contraindicaciones Médicas</td>
+        <td>render_template</td>
     </tr>
     
     
@@ -234,8 +251,26 @@
     
     
     <tr>
+        <td>source</td>
+        <td><a href='d9481d6d28d390ac939b33396a6650f3.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>«Control»Paciente</a></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>target</td>
+        <td><a href='5a9127f8c8e7834809f08243e3ce9679.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>«Boundary»Actualización Datos de Paciente</a></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
         <td>stereotype</td>
-        <td>Boundary</td>
+        <td><span class='label label-info'>null</span></td>
     </tr>
     
     
@@ -251,11 +286,9 @@
     
     
     
-    
-    
     <tr>
-        <td>selector</td>
-        <td></td>
+        <td>messageSort</td>
+        <td>reply</td>
     </tr>
     
     
@@ -263,7 +296,7 @@
     
     
     <tr>
-        <td>represent</td>
+        <td>signature</td>
         <td><span class='label label-info'>null</span></td>
     </tr>
     
@@ -272,7 +305,61 @@
     
     
     <tr>
-        <td>isMultiInstance</td>
+        <td>connector</td>
+        <td><span class='label label-info'>null</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>sequenceNumber</td>
+        <td></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>arguments</td>
+        <td></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>assignmentTarget</td>
+        <td></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>guard</td>
+        <td></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>iteration</td>
+        <td></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isConcurrentIteration</td>
         <td><span class='label label-info'>false</span></td>
     </tr>
     
@@ -289,48 +376,11 @@
       <!-- Constraints, Dependencies, Dependants -->
 
       
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-      
 
       <!-- Relationships -->
 
       
       
-<section class="element-list">
-    <h3>Relationships</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='bc2932a3104438a844748fda61e648a9.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Redirige (Ficha de Paciente→Ventana Contraindicaciones Médicas)</a></li>
-        
-        <li><a href='814b9cba3fe9e8cf17a3bcd6eecf4b93.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>MostrarContraindicaciones() (Ventana Contraindicaciones Médicas→Paciente)</a></li>
-        
-        <li><a href='e2e95e9a8eff6d54ccaee9230d0ac183.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Contraindicaciones paciente (Paciente→Ventana Contraindicaciones Médicas)</a></li>
-        
-        <li><a href='48bee3117342c61fd838d019833ccec3.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>ClickBoton (Usuario→Ventana Contraindicaciones Médicas)</a></li>
-        
-        <li><a href='3da2715bbc7a43e696982d6126b7d07e.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>contraindicaciones (Usuario→Ventana Contraindicaciones Médicas)</a></li>
-        
-        <li><a href='db2e9d01edec2769010f616bace3b949.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>ActualizarDatos(contraindicacion,importante) (Ventana Contraindicaciones Médicas→Paciente)</a></li>
-        
-        <li><a href='9c1eb9aa32f85d8e48ce173d0c202334.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>render_template (Paciente→Ventana Contraindicaciones Médicas)</a></li>
-        
-        <li><a href='f4b15af2d1ef003adf298cc4f71d2d85.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>importa = VerificarImportancia() (Ventana Contraindicaciones Médicas→Paciente)</a></li>
-        
-        <li><a href='2e42ce42c065579a4bf5e97558778a43.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>background (Ventana Contraindicaciones Médicas→Ventana Contraindicaciones Médicas)</a></li>
-        
-    </ul>
-</section>
-
 
 
       <!-- Owned Elements -->
