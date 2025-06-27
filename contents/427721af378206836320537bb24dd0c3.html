@@ -181,12 +181,6 @@
         
         <li><a href='3fe9018d2e39d5ba8e7b9a4c4094702b.html'><span class='node-icon staruml-icon icon-UMLCombinedFragment'></span>ClickBoton</a></li>
         
-        <li><a href='120959897c80c79e79c4711fcd1207db.html'><span class='node-icon staruml-icon icon-UMLCombinedFragment'></span>Crear Odontograma</a></li>
-        
-        <li><a href='95093b3a55d72d53a7fac9ec624f4011.html'><span class='node-icon staruml-icon icon-UMLCombinedFragment'></span>Actualizar Odontograma</a></li>
-        
-        <li><a href='c584f975d79b6662f58da2408594f3ef.html'><span class='node-icon staruml-icon icon-UMLCombinedFragment'></span>Visualizar Odontograma</a></li>
-        
     </ul>
 </section>
 
@@ -208,7 +202,7 @@
         
         <li><a href='4f2f2d8fb7bb525f4ed42fd99706e3f5.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>«Entity»Odontograma</a></li>
         
-        <li><a href='ff0d0fbe41333872ab857816ea7aaed9.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>«Boundary»Odontograma</a></li>
+        <li><a href='ff0d0fbe41333872ab857816ea7aaed9.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>«Boundary»Odontograma Inicial</a></li>
         
         <li><a href='dfe8760e0baee80bf713f12a60bddbf6.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>«Control»Tratamiento</a></li>
         
@@ -217,6 +211,10 @@
         <li><a href='3da8c5bdba5bc47f36d3115955389c6b.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>«Control»Paciente</a></li>
         
         <li><a href='f2a99cb6a0331921f02f44dd9649c70b.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>«Entity»Paciente</a></li>
+        
+        <li><a href='56ca5ab650bf6222b8b59f573cec2553.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>«Boundary»Odontograma de Tratamiento</a></li>
+        
+        <li><a href='2742d277cb96b6997f11259d1ce2618d.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>«Boundary»Odontograma de Evolución</a></li>
         
     </ul>
 </section>
@@ -243,125 +241,65 @@
         
         <li><a href='9cdc54e1fe235827cd0f26f8e3e4f22b.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>ClickBoton (Usuario→Ficha de Paciente)</a></li>
         
-        <li><a href='d29d8d4c34b03184f196bd88e0bdd8af.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Redirige (Ficha de Paciente→Odontograma)</a></li>
+        <li><a href='d29d8d4c34b03184f196bd88e0bdd8af.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Redirige (Ficha de Paciente→Odontograma Inicial)</a></li>
         
-        <li><a href='e0ae1be2d992d5d67cc98d240d3ea829.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>ClickBoton (Usuario→Odontograma)</a></li>
+        <li><a href='600cc618ff3b9bb3f14c73c475f28612.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>HistoriaOdontograma(id) (Odontograma Inicial→Odontograma)</a></li>
         
-        <li><a href='600cc618ff3b9bb3f14c73c475f28612.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>imagen=CargarNuevoOdontograma() (Odontograma→Odontograma)</a></li>
+        <li><a href='e37bbd446cf42f9c94d0e12dd6265172.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>HistoriaOdontograma (Odontograma→Odontograma)</a></li>
         
-        <li><a href='e37bbd446cf42f9c94d0e12dd6265172.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>imagen=CargarNuevoOdontograma() (Odontograma→Odontograma)</a></li>
+        <li><a href='69c17216d53adc9c1a1f258ba162a1b7.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>render_template (Odontograma→Odontograma)</a></li>
         
-        <li><a href='69c17216d53adc9c1a1f258ba162a1b7.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Nuevo odontograma (Odontograma→Odontograma)</a></li>
+        <li><a href='32b3cc42d9a218e913ccc6f1dd4566dd.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>render_template (Odontograma→Odontograma Inicial)</a></li>
         
-        <li><a href='32b3cc42d9a218e913ccc6f1dd4566dd.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Nuevo odontograma (Odontograma→Odontograma)</a></li>
+        <li><a href='bdd08c579fb96c7c89f2e4bd09508f33.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Dibujar() (Usuario→Odontograma Inicial)</a></li>
         
-        <li><a href='bdd08c579fb96c7c89f2e4bd09508f33.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Dibujar() (Usuario→Odontograma)</a></li>
+        <li><a href='020542a442c3824ba8b975257763e969.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>validateonsubmit (Odontograma Inicial→Odontograma)</a></li>
         
-        <li><a href='020542a442c3824ba8b975257763e969.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>GuardarDatos (Odontograma→Odontograma)</a></li>
+        <li><a href='c87fa03708011ce314190d70e024d4e9.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>validateonsubmit (Odontograma→Odontograma)</a></li>
         
-        <li><a href='c87fa03708011ce314190d70e024d4e9.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>GuardarDatos(ultima_edicion) (Odontograma→Odontograma)</a></li>
+        <li><a href='cc62f52615179f567e08908423aa072e.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>render_template (Odontograma→Odontograma)</a></li>
         
-        <li><a href='7a3b7e3a6abc8e06e298d69780fa9fd1.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>imagen=CargarNuevoOdontograma() (Odontograma→Odontograma)</a></li>
+        <li><a href='1ce7454f887eee8baa6609bd90d5a74c.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>render_template (Odontograma→Odontograma Inicial)</a></li>
         
-        <li><a href='1f0ac2ec776450a3b757361550805074.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>imagen=CargarNuevoOdontograma() (Odontograma→Odontograma)</a></li>
+        <li><a href='2e34ec810bb6e879beeb10976cd06a9f.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Redirige (Ficha de Paciente→Odontograma de Tratamiento)</a></li>
         
-        <li><a href='1d29f5bd34bc2e78ce0e7610fa5add8d.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Nuevo odontograma (Odontograma→Odontograma)</a></li>
+        <li><a href='c0f3332a2b38ce34934f61981d6a0b37.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>HistoriaOdontograma (Odontograma de Tratamiento→Odontograma)</a></li>
         
-        <li><a href='1c8d545a9df03a550521beb0f3127cd6.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Nuevo odontograma (Odontograma→Odontograma)</a></li>
+        <li><a href='1f0ac2ec776450a3b757361550805074.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>HistoriaOdontograma (Odontograma→Odontograma)</a></li>
         
-        <li><a href='24989b9e12456457fdcb6e870028b24e.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Dibujar() (Usuario→Odontograma)</a></li>
+        <li><a href='1d29f5bd34bc2e78ce0e7610fa5add8d.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>render_template (Odontograma→Odontograma)</a></li>
         
-        <li><a href='b0beed20f732ff79e0d64c09607da9fb.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>GuardarDatos (Odontograma→Odontograma)</a></li>
+        <li><a href='af722a5dfcb3631a54f1c1b347c6c2a6.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>render_template (Odontograma→Odontograma de Tratamiento)</a></li>
         
-        <li><a href='ceefa69bdda7fe98adc38fd09aa08aca.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>GuardarDatos(ultima_edicion) (Odontograma→Odontograma)</a></li>
+        <li><a href='f1751a997bd815dff4a55ca6be328cec.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Dibujar() (Usuario→Odontograma de Tratamiento)</a></li>
         
-        <li><a href='f653cc987008d1fe1be23a34d7af7fdb.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>imagen=CargarNuevoOdontograma() (Odontograma→Odontograma)</a></li>
+        <li><a href='977075c39f1608482439faee08c63ff8.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>validateonsubmit (Odontograma de Tratamiento→Odontograma)</a></li>
         
-        <li><a href='58f39f63e04b8aa0cec26a9d51c10aab.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>imagen=CargarNuevoOdontograma() (Odontograma→Odontograma)</a></li>
+        <li><a href='ceefa69bdda7fe98adc38fd09aa08aca.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>validate_on_submit (Odontograma→Odontograma)</a></li>
         
-        <li><a href='4b4655be142bba020f4b347aa86e3561.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Nuevo odontograma (Odontograma→Odontograma)</a></li>
+        <li><a href='86771f4abf05d821557e113fa6d0460f.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>render_template (Odontograma→Odontograma)</a></li>
         
-        <li><a href='835747510c6d16fde3c46ef549028a02.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Nuevo odontograma (Odontograma→Odontograma)</a></li>
+        <li><a href='fd7e333ece97761391fe5b94e567cb75.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>render_template (Odontograma→Odontograma de Tratamiento)</a></li>
         
-        <li><a href='1f1d06eb0fcf8ec1aa4715160737b173.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Dibujar() (Usuario→Odontograma)</a></li>
+        <li><a href='8e4c6fba48feb088ea856c1d751e38ce.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Redirige (Ficha de Paciente→Odontograma de Evolución)</a></li>
         
-        <li><a href='8afda9e56d55754e32b56efd02a1ec81.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>GuardarDatos (Odontograma→Odontograma)</a></li>
+        <li><a href='e1f0ab179b2808b0c51b969bc99b64d5.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>HistoriaOdontograma (Odontograma de Evolución→Odontograma)</a></li>
         
-        <li><a href='39545b27a8b061cc1f2f4c51cf1eb167.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>GuardarDatos (Odontograma→Odontograma)</a></li>
+        <li><a href='e7916111e20c230b50482cd338497824.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>HistoriaOdontograma (Odontograma→Odontograma)</a></li>
         
-        <li><a href='0289834585f312c991611254d775d82c.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Redirige (Ficha de Paciente→Odontograma)</a></li>
+        <li><a href='6ba7b585716b1866f63ff529ced7c486.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>render_template (Odontograma→Odontograma)</a></li>
         
-        <li><a href='abc97605d3b2f7205895fceea02a783b.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>ClickBoton (Usuario→Odontograma)</a></li>
+        <li><a href='363519c35491096871e54b7ca4146f6a.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>render_template (Odontograma→Odontograma de Evolución)</a></li>
         
-        <li><a href='0e6e589ba75dc05583873c312b9a3457.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>imagen = CargarImagenOdontograma() (Odontograma→Odontograma)</a></li>
+        <li><a href='2fd798333a8e85a390d428e612c6abad.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Dibujar() (Usuario→Odontograma de Evolución)</a></li>
         
-        <li><a href='61ca4c1784f5ca880e0de3a8ca093d71.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>imagen = CargarImagenOdontograma() (Odontograma→Odontograma)</a></li>
+        <li><a href='7a606bb4fb7472b7beb25316b38dd49e.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>validateonsubmit (Odontograma de Evolución→Odontograma)</a></li>
         
-        <li><a href='3eaa15abad9cb92e35dd4b41283c39d5.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Ultimo odontograma modificado (Odontograma→Odontograma)</a></li>
+        <li><a href='e6e28daed95dc36a1d692bac329cdbdf.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>validateonsubmit (Odontograma→Odontograma)</a></li>
         
-        <li><a href='0117b73eb391d9e2aeb2f9a32b345f1b.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Ultimo odontograma modificado (Odontograma→Odontograma)</a></li>
+        <li><a href='584eaa8a11c4cc5305e5509082db05da.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>render_template (Odontograma→Odontograma)</a></li>
         
-        <li><a href='02b14a875d7e4beedcb35da47aff961e.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Dibujar() (Usuario→Odontograma)</a></li>
-        
-        <li><a href='327223765c206588a2515fb31fce2c99.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>GuardarDatos (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='e957c43ec13590d08d7a762b8d105f40.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>GuardarDatos (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='0f803155a0815ab5f6c9ab2d6d37c09a.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>imagen = CargarImagenOdontograma() (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='0bab4e3194dd23cc0ea75e6dfd9b154a.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>imagen = CargarImagenOdontograma() (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='801464cf88bfb1c06b7c99881e3eb65e.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Ultimo odontograma modificado (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='13927172dbb7e97c7d4cc31de879e827.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Ultimo odontograma modificado (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='9c3719b2c7ef2835abe7823b0409c5d8.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Dibujar() (Usuario→Odontograma)</a></li>
-        
-        <li><a href='8f57b0b7ab2b67b056341e05b5d78483.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>GuardarDatos (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='e560ce5adc85999544e20fb73e93d7f7.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>GuardarDatos (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='e80373d1acf57b6937b3409424934b2c.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>imagen = CargarImagenOdontograma() (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='1f44f6a8e99843b3e36a44951820f298.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>imagen = CargarImagenOdontograma() (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='c2f3873a1aea6718e21e441cf03a1bc8.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Ultimo odontograma modificado (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='2dda1acfeb14760e599442cec44a3366.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Ultimo odontograma modificado (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='edf27c79c863a123ca080543944da86f.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Dibujar() (Usuario→Odontograma)</a></li>
-        
-        <li><a href='fcdcd88c4e310b972fda51890be4ea29.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>GuardarDatos (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='8a4893595ce2cd566288819ed59730b0.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>GuardarDatos (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='d45db61a5a6fbe660f84020e37cd60f8.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Redirige (Ficha de Paciente→Odontograma)</a></li>
-        
-        <li><a href='865b37f50268dabf52ca874b7671dac2.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>ClickBoton (Usuario→Odontograma)</a></li>
-        
-        <li><a href='ae2b8b6def3943e7204fb0ee68de507b.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>imagen = CargarUltimoOdontogramaInicial() (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='ebc188af978c051b159f1f41734f05e3.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>imagen = CargarUltimoOdontogramaInicial() (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='95bfa00e996468ff061eccbd23f2975f.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Ultimo odontograma inicial (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='d328e396e75f034a4e5dc02c14b79faa.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Ultimo odontograma inicial (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='f13fa8002239b03b0c81ffb42c28c74d.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>imagen = CargarUltimoOdontogramaTratamiento() (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='5ba5134393070178b9a0b7cdcafa9ad8.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>imagen = CargarUltimoOdontogramaTratamiento() (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='ff2a42918562c5fc8c0fb9d2f4d59689.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Ultimo odontograma tratamiento (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='f8981a7073daf093d9caf220a62ad14a.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Ultimo odontograma tratamiento (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='089ceb8f85cbc7c003a3bc4307997669.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>imagen = CargarUltimoOdontogramaEvolucion() (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='fdf566b0ec7f809b9da4590cec64fff8.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>imagen = CargarUltimoOdontogramaEvolucion() (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='a692e19e4cdecf6fe350d3eac2957c99.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Ultimo odontograma evolucion (Odontograma→Odontograma)</a></li>
-        
-        <li><a href='64d14d0b891cad68b912e3637ce6d57b.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Ultimo odontograma evolucion (Odontograma→Odontograma)</a></li>
+        <li><a href='399669421c3173f28027b7a2b2a7a546.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>render_template (Odontograma→Odontograma de Evolución)</a></li>
         
     </ul>
 </section>

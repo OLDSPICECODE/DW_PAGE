@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CD-003 Registro de sesión</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/icon-font/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+
+  </head>
+  <body>
+    <div>
+
+      <!-- Name Title -->
+
+      <h1>CD-003 Registro de sesión</h1>
+
+      <!-- Type and Stereotype -->
+
+      <section style="margin-top: .5em;">
+        <span class="alert alert-info">
+          <span class="node-icon staruml-icon icon-UMLClass"></span>
+          UMLClass
+        </span>
+        
+          <span style="margin-left: 10px" class="alert alert-info">«Boundary»</span>
+        
+      </section>
+
+      <!-- Path -->
+
+      <section style="margin-top: 10px">
+        
+        
+        
+          
+          <span class="label label-info"><a href='0fa3e26321c26558efa77ff144c36f21.html'><span class='node-icon staruml-icon icon-Project'></span>Dentware</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='af7d9745e215e592d9dcc604230d6468.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Modelo de diseño</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='54b94b25ac4cb5e576a4c273fdd970d9.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Modelo de clases de diseño</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='c70aa33f45a994bd346c5c0eb8e31fa6.html'><span class='node-icon staruml-icon icon-UMLClass'></span>«Boundary»CD-003 Registro de sesión</a></span>
+        
+      </section>
+
+      <!-- Diagram -->
+
+      
+
+      <!-- Description -->
+
+      
+      <section>
+        <h3>Description</h3>
+        <div>
+          
+            <span class="label label-info">none</span>
+          
+        </div>
+      </section>
+      
+
+      <!-- Specification -->
+
+      
+
+      <!-- Directed Relationship -->
+
+      
+
+      <!-- Undirected Relationship -->
+
+      
+
+      <!-- Classifier -->
+
+      
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
+
+      <!-- Interface -->
+
+      
+
+      <!-- Component -->
+
+      
+
+      <!-- Node -->
+
+      
+
+      <!-- Actor -->
+
+      
+
+      <!-- Use Case -->
+
+      
+
+      <!-- Template Parameters -->
+
+      
+
+      <!-- Literals -->
+
+      
+
+      <!-- Attributes -->
+
+      
+      <section>
+        <h3>Attributes</h3>
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th>Visibility</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Description</th>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="73666c84b408bc7ed9f93049dbcd8f84.html">odontologo_id</a></td>
+            <td>string</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="3727fd4c887e3eca5ccf9af57e85a788.html">fecha</a></td>
+            <td>date</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="308474b91fc963f1fc684945a52796a0.html">descripcion</a></td>
+            <td>string</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="59099cbeaae9369133a6e3f46348b376.html">validar</a></td>
+            <td>bool</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="1757e6505414116964d1062be3fb7aa1.html">mensaje</a></td>
+            <td>string</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="27ac2a221a9900d250f18a7b9f48bcc3.html">mensaje</a></td>
+            <td>string</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="e9d6ff1eb51ef244754edca015d0b15d.html">paciente_id</a></td>
+            <td>int</td>
+            <td></td>
+          </tr>
+          
+        </table>
+      </section>
+      
+
+      <!-- Operations -->
+
+      
+      <section>
+        <h3>Operations</h3>
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th>Visibility</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="4139d0f41507e8faec1a1d93dcc2fc1b.html">CrearSesion(profesional, fecha, descripcion): void</a></td>
+            <td><p>Función que permite llenar el formulario de registro de sesión. Se encuentran los campos: profesional, fecha, descripción.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="d29e02dbd32914b6e08ef6d4e9841ef1.html">validate_on_submit(odontologo_id, fecha, descripcion): void</a></td>
+            <td><p>Función que permite  validar el ingreso de los datos del formulario para el registro de sesión. Se encarga de verificar que los campos hayan sido llenados con los datos correctos.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="2fc2a4ce414ec10cf4b3a955c224117d.html">flash(mensaje: string, categoria: string): string</a></td>
+            <td><p>Función que guarda un mensaje y su categoría en la sesión para ser mostrado en la siguiente vista.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="b9323575f7b71d4f374c6db339358e14.html">populate_obj(odontologo_id, fecha, descripcion): void</a></td>
+            <td><p>Función que envía los datos llenados satisfactoriamente por el usuario al controlador correspondiente.</p></td>
+          </tr>
+          
+        </table>
+      </section>
+      
+
+      <!-- Receptions -->
+
+      
+
+      <!-- Extension Points -->
+
+      
+
+      <!-- Parameters -->
+
+      
+
+      <!-- Diagrams -->
+
+      
+      
+
+      <!-- Behavior -->
+
+      
+
+      <!-- Action -->
+
+      
+
+      <!-- Interaction -->
+
+      
+
+      <!-- CombinedFragment -->
+
+      
+
+      <!-- Activity -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State -->
+
+      
+
+      <!-- Vertex -->
+
+      
+
+      <!-- Transition -->
+
+      
+
+      <!-- Data Model (ERD) -->
+
+      
+
+      <!-- Columns (ERD) -->
+
+      
+
+      <!-- Related Entities (ERD) -->
+
+      
+
+      <!-- Data Flows (DFD) -->
+
+      
+
+      <!-- Flows (Flowchart) -->
+
+      
+
+      <!-- Properties -->
+
+      <section>
+        <h3>Properties</h3>
+        
+        <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>CD-003 Registro de sesión</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>stereotype</td>
+        <td>Boundary</td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>visibility</td>
+        <td>public</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>isAbstract</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isFinalSpecialization</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isLeaf</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isActive</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+</table>                
+
+      </section>
+
+      <!-- Tags -->
+
+      
+
+      <!-- Constraints, Dependencies, Dependants -->
+
+      
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
+
+      <!-- Relationships -->
+
+      
+      
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='ebedaaed15a7df981793dd440c6a012f.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Redirige (CD-003 Registro de sesión—CD-004 Ventana Tratamiento)</a></li>
+        
+        <li><a href='5d9c9d143f2098886f124281ffd59d66.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-003 Registro de sesión—CD-023 Sesion)</a></li>
+        
+        <li><a href='df62d1e8d29bda9a5f25368535d6ad0f.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-003 Registro de sesión—CD-017 Tratamiento)</a></li>
+        
+        <li><a href='3ddc11f88d8ac021784d83b2dba837ed.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Redirige (Ventana Tratamiento—CD-003 Registro de sesión)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Owned Elements -->
+
+      
+      
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='ebedaaed15a7df981793dd440c6a012f.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Redirige (CD-003 Registro de sesión—CD-004 Ventana Tratamiento)</a></li>
+        
+        <li><a href='5d9c9d143f2098886f124281ffd59d66.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-003 Registro de sesión—CD-023 Sesion)</a></li>
+        
+        <li><a href='df62d1e8d29bda9a5f25368535d6ad0f.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-003 Registro de sesión—CD-017 Tratamiento)</a></li>
+        
+    </ul>
+</section>
+
+
+
+    </div>
+  </body>
+</html>

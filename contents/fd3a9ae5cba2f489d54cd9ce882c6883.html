@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CD-017 Tratamiento</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/icon-font/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+
+  </head>
+  <body>
+    <div>
+
+      <!-- Name Title -->
+
+      <h1>CD-017 Tratamiento</h1>
+
+      <!-- Type and Stereotype -->
+
+      <section style="margin-top: .5em;">
+        <span class="alert alert-info">
+          <span class="node-icon staruml-icon icon-UMLClass"></span>
+          UMLClass
+        </span>
+        
+          <span style="margin-left: 10px" class="alert alert-info">«Control»</span>
+        
+      </section>
+
+      <!-- Path -->
+
+      <section style="margin-top: 10px">
+        
+        
+        
+          
+          <span class="label label-info"><a href='0fa3e26321c26558efa77ff144c36f21.html'><span class='node-icon staruml-icon icon-Project'></span>Dentware</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='af7d9745e215e592d9dcc604230d6468.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Modelo de diseño</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='54b94b25ac4cb5e576a4c273fdd970d9.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Modelo de clases de diseño</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='fd3a9ae5cba2f489d54cd9ce882c6883.html'><span class='node-icon staruml-icon icon-UMLClass'></span>«Control»CD-017 Tratamiento</a></span>
+        
+      </section>
+
+      <!-- Diagram -->
+
+      
+
+      <!-- Description -->
+
+      
+      <section>
+        <h3>Description</h3>
+        <div>
+          
+            <span class="label label-info">none</span>
+          
+        </div>
+      </section>
+      
+
+      <!-- Specification -->
+
+      
+
+      <!-- Directed Relationship -->
+
+      
+
+      <!-- Undirected Relationship -->
+
+      
+
+      <!-- Classifier -->
+
+      
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
+
+      <!-- Interface -->
+
+      
+
+      <!-- Component -->
+
+      
+
+      <!-- Node -->
+
+      
+
+      <!-- Actor -->
+
+      
+
+      <!-- Use Case -->
+
+      
+
+      <!-- Template Parameters -->
+
+      
+
+      <!-- Literals -->
+
+      
+
+      <!-- Attributes -->
+
+      
+      <section>
+        <h3>Attributes</h3>
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th>Visibility</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Description</th>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="525e556cf5d8578be248438057598c29.html">profesional</a></td>
+            <td>string</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="13666c2e1fd7a19d1151da5042847d6f.html">fecha</a></td>
+            <td>date</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="de61653b14b517dfbb31b9afe7f142d1.html">paciente_id</a></td>
+            <td>int</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="cd24800ad512d138009ffdf6345a31ab.html">fecha</a></td>
+            <td>date</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="dcdadc62b2fc50d41aea59b8cd69c3e3.html">descripcion</a></td>
+            <td>string</td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="e2f5e3954739f13d01ba883df7ce2f9b.html">odontologo_id</a></td>
+            <td>string</td>
+            <td></td>
+          </tr>
+          
+        </table>
+      </section>
+      
+
+      <!-- Operations -->
+
+      
+      <section>
+        <h3>Operations</h3>
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th>Visibility</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="e728cc3d7ed92bd2d16ed462ac72b267.html">MostrarListaTratamientos(paciente_id: int): list</a></td>
+            <td><p>Función que devuelve una lista general de tratamientos asociados al paciente identificado por su DNI, consultando con Entity Tratamiento.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="80fd8f738d96ed13047107ea40dff8e6.html">MostrarDatosTratamiento(paciente_id: int): list</a></td>
+            <td><p>Función que devuelve información detallada de un tratamiento en específico asociado al paciente identificado por su DNI, consultando con Entity Tratamiento.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="568e952dfb3cf9aab0ed3a96cec30829.html">ActualizarDatos(odontologo_id: string, fecha: date, descripcion: string): void</a></td>
+            <td><p>Función que actualiza una sesión dentro de un tratamiento existente modificando los campos como el profesional que lo realiza, la fecha, y una descripción del mismo, pasando los datos ingresados a Entity Sesion.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="eccb499cc0f616477f29ad494bb1577d.html">ActualizarDatos(estado: bool, fecha: date, tratamiento: string, odontologo_id: string, observaciones: string): void</a></td>
+            <td><p>Función que actualiza un tratamiento existente modificando los campos como el estado actual del tratamiento (Activo, Finalizado), la fecha, descripción del tratamiento realizado, el profesional que lo realiza, y observaciones del tratamiento hechas por el profesional, pasando los datos ingresados a Entity Tratamiento.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="6b6e7ce989ce26afe24c7e4a40aaf8cb.html">InsertarDatos(estado: bool, fecha: date, tratamiento: string, odontologo_id: string, observaciones: string): void</a></td>
+            <td><p>Función que crea un nuevo tratamiento, recopilando información como el estado del tratamiento, fecha en que se realizó, qué tratamiento se realizó, el profesional que lo realizó y observaciones hechas por el profesional, pasando los datos ingresados a Entity Tratamiento.</p></td>
+          </tr>
+          
+        </table>
+      </section>
+      
+
+      <!-- Receptions -->
+
+      
+
+      <!-- Extension Points -->
+
+      
+
+      <!-- Parameters -->
+
+      
+
+      <!-- Diagrams -->
+
+      
+      
+
+      <!-- Behavior -->
+
+      
+
+      <!-- Action -->
+
+      
+
+      <!-- Interaction -->
+
+      
+
+      <!-- CombinedFragment -->
+
+      
+
+      <!-- Activity -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State -->
+
+      
+
+      <!-- Vertex -->
+
+      
+
+      <!-- Transition -->
+
+      
+
+      <!-- Data Model (ERD) -->
+
+      
+
+      <!-- Columns (ERD) -->
+
+      
+
+      <!-- Related Entities (ERD) -->
+
+      
+
+      <!-- Data Flows (DFD) -->
+
+      
+
+      <!-- Flows (Flowchart) -->
+
+      
+
+      <!-- Properties -->
+
+      <section>
+        <h3>Properties</h3>
+        
+        <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>CD-017 Tratamiento</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>stereotype</td>
+        <td>Control</td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>visibility</td>
+        <td>public</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>isAbstract</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isFinalSpecialization</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isLeaf</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isActive</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+</table>                
+
+      </section>
+
+      <!-- Tags -->
+
+      
+
+      <!-- Constraints, Dependencies, Dependants -->
+
+      
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
+
+      <!-- Relationships -->
+
+      
+      
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='464847b2edeca91836f68b0f3c86939a.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-013 Ficha de paciente—CD-017 Tratamiento)</a></li>
+        
+        <li><a href='8b17bec050bbc0ff668fa501fd89d35b.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>ukhjhlhnilhlhnlhnljhnlhnkihnnhlnh (CD-004 Ventana Tratamiento—CD-017 Tratamiento)</a></li>
+        
+        <li><a href='eaaa84abf949362bc4232e8d954c37ff.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-004 Ventana Tratamiento—CD-017 Tratamiento)</a></li>
+        
+        <li><a href='df62d1e8d29bda9a5f25368535d6ad0f.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-003 Registro de sesión—CD-017 Tratamiento)</a></li>
+        
+        <li><a href='ddd6b10487bbad8a7a840d2f143e93ae.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CD-005 Creacion de tratamiento—CD-017 Tratamiento)</a></li>
+        
+        <li><a href='2b8a6d7da7ea8ce898c44863f6cd836d.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CD-005 Creacion de tratamiento—CD-017 Tratamiento)</a></li>
+        
+        <li><a href='2c2a11cd9b62dd51668cbb547cf3c458.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-017 Tratamiento—CD-022 Tratamiento)</a></li>
+        
+        <li><a href='a89464b526be03a568f012714612d420.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-017 Tratamiento—CD-023 Sesion)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Owned Elements -->
+
+      
+      
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='2c2a11cd9b62dd51668cbb547cf3c458.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-017 Tratamiento—CD-022 Tratamiento)</a></li>
+        
+        <li><a href='a89464b526be03a568f012714612d420.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Comunica (CD-017 Tratamiento—CD-023 Sesion)</a></li>
+        
+    </ul>
+</section>
+
+
+
+    </div>
+  </body>
+</html>
